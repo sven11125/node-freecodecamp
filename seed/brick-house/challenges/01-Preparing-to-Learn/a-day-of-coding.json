@@ -1,0 +1,194 @@
+{
+	"name": "A Day of Coding",
+	"order": 2,
+	"time": "15 minutes",
+	"helpRoom": "Help",
+	"challenges": [
+	  {
+		"id": "11c9c8d0af88111893a5f8cb",
+		"title": "Coding is Typing",
+		"description": [
+		  [
+			"",
+			"",
+			"A coder or developer spends a lot of time typing.",
+			""
+		  ],
+		  [
+			"",
+			"",
+			"It is important that you become a proficient typist.",
+			""
+		  ],
+		  [
+			"",
+			"",
+			"Key combinations for common actions are called 'shortcuts', like Ctrl and C for copy, and very important to learn and use.",
+			""
+		  ],
+		  [
+			"",
+			"",
+			"We will give you a list of the shortcuts you should learn as a minimum, but get creative, the more shortcuts you know the funner coding will become.",
+			""
+		  ]
+		],
+		"challengeSeed": [],
+		"tests": [],
+		"type": "Waypoint",
+		"challengeType": 7
+		},
+		{
+		"id": "12698b40af889fed2a132ede",
+		"title": "Coding is Reading",
+		"description": [
+			[
+			"",
+			"",
+			"Everyday a coder searches for definitions in documentation.",
+			""
+			],
+			[
+			"",
+			"",
+			"Reading is a daily activity and a big part of coding. All the information could never be memorized.",
+			""
+			],
+			[
+			"",
+			"",
+			"It is critical to know where to find the definitions and then look them up every time you have a doubt.",
+			""
+			]
+		],
+		"challengeSeed": [],
+		"tests": [],
+		"type": "Waypoint",
+		"challengeType": 7
+		},
+		{
+		"id": "136c7c50af8875e78e1f11d8",
+		"title": "Coding is Organizing",
+		"description": [
+			[
+			"",
+			"",
+			"A great coder is a great organizer.",
+			""
+			],
+			[
+			"",
+			"",
+			"Categorizing and naming are key to being an excellent coder.",
+			""
+			],
+			[
+			"",
+			"",
+			"Staying organized will make coding very enjoyable over time. Disorganization leads to frustration.",
+			""
+			],
+			[
+			"",
+			"",
+			"Being organized helps a coder build a library of knowledge for himself and others.",
+			""
+			]
+		],
+		"challengeSeed": [],
+		"tests": [],
+		"type": "Waypoint",
+		"challengeType": 7
+		},
+		{
+		"id": "12cf03d0af8887fc22b806c8",
+		"title": "Coding is Learning",
+		"description": [
+			[
+			"",
+			"",
+			"The learning process never ends for a coder.",
+			""
+			],
+			[
+			"",
+			"",
+			"A coder learns something new everyday and is constantly learning new technology, solutions, and tools.",
+			""
+			],
+			[
+			"",
+			"",
+			"A coder should always be reading documentation, examples, tutorials, blogs and technical books on relevant topics.",
+			""
+			],
+			[
+			"",
+			"",
+			"A coder should also be watching videos of tutorials, examples, conference talks and other educational material.",
+			""
+			]
+		],
+		"challengeSeed": [],
+		"tests": [],
+		"type": "Waypoint",
+		"challengeType": 7
+		},
+		{
+		"id": "13b7b620af881d1db266658b",
+		"title": "Coding is Art",
+		"description": [
+			[
+			"",
+			"",
+			"There is great skill and artistry in coding.",
+			""
+			],
+			[
+			"",
+			"",
+			"The art is in the code. How well written and organized, how simply each solution is defined, even how the text of code flows on the screen.",
+			""
+			],
+			[
+			"",
+			"",
+			"It is important to take time to build beauty in the code itself.",
+			""
+			]
+		],
+		"challengeSeed": [],
+		"tests": [],
+		"type": "Waypoint",
+		"challengeType": 7
+		},
+		{
+		"id": "8e51aad0af883f5aeb1e8908",
+		"title": "Coding is Fun",
+		"description": [
+			[
+			"",
+			"",
+			"Achieving beautiful solutions to problems can be very fun.",
+			""
+			],
+			[
+			"",
+			"",
+			"Seeing your app come to life before your eyes is exciting.",
+			""
+			],
+			[
+			"",
+			"",
+			"Watching other coders look at your code and being impressed as well as users using your app is extremely rewarding.",
+			""
+			]
+		],
+		"challengeSeed": [],
+		"tests": [],
+		"type": "Waypoint",
+		"challengeType": 7
+		}
+	]
+  }

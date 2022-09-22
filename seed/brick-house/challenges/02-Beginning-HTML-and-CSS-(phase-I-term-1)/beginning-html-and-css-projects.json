@@ -1,0 +1,319 @@
+{
+  "name": "Beginning HTML and CSS Projects",
+  "order": 9,
+  "time": "90 hours",
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "9168acf0dc79c71a2a438633",
+      "title": "Beginning HTML and CSS Projects with Tests",
+      "description": [
+        [
+          "",
+          "",
+          "Our front end development projects will give you a chance to apply the front end skills you've learned up to this point.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "These projects come with tests that you will need to pass.<br><br>Link in the test suite following the instructions in the Introduction to JS Bin.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "You can add the test scripts to your project when you are ready to start testing.<br><br> You can also comment out or remove the scripts while you are working to remove the testing interface.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "The projects will give you guidance on the web page you are to build.<br><br> Do <b>NOT</b> spend a lot of time on the design or content of your web page.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "The goal of these projects are to get you familiar with writing a complete page of HTML and CSS.<br><br> You are working towards being a Front End Developer not a graphics or web designer.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "In all future projects you will be given the design for you project.<br><br>Focus on the code and how it looks, do <b>NOT</b> focus on how your output looks.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "In the test interface you will need to pick the project you are working on in the drop down box.<br><br> Click the <em>Run Tests</em> button to run the tests and the <em>Test 10/10</em> to see the results.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "To get the tests to pass you will need to <b>READ</b> the error messages.<br><br>Please fully read both the error message (next to the number) and AssertionError (at the top of the highlighted box), they provide the clues for what needs to be fixed.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "If you get stuck, please use the methodology: <h3>Research-Ask</h3>",
+          ""
+        ]
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "isRequired": false,
+      "challengeType": 7
+    },
+    {
+      "id": "249d11b0e7552385abe53a9d",
+      "title": "** Commit to not solve other students problems - Beginning HTML",
+      "description": [
+        [
+          "",
+          "",
+          "Computer programming requires excellent problem solving skills.<br><br>Working through problems with the help of documentation is a daily activity for all programmers.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "When students give help it should only be to point out where in the documentation, books or other materials where they can learn about a concept.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Students should never give away a solution to a problem or share code that completes a problem.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "If a student is still unable to solve a problem, please, refer them to the tutor.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "If you and the other student(s) have finished and passed off the project or challenge feel free to discuss, share techniques and source code.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "However, <strong>please</strong> do not discuss within earshot of other students that have not passed off to that point.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "By clicking below you commit to <strong>not</strong> solve other students problems, share code or give away answers.",
+          "#"
+        ]
+      ],
+      "releasedOn": "May 10, 2018",
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7,
+      "isRequired": true
+    },
+    {
+      "id": "bd7158d8c442eddfaeb5bd18",
+      "title": "Build a Tribute Page",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Tribute Page tests.",
+        "<strong>User Story:</strong> The page is a single web page that is a tribute to a person or a place.",
+        "<strong>User Story:</strong> The page contains an image of the topic.",
+        "<strong>User Story:</strong> The page contains descriptive text about the topic.",
+        "<strong>User Story:</strong> The page contains an external link that will open another browser window.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<strong>Content:</strong> 1. The page contains an element with corresponding id=\"main\", which contains all other elements.",
+        "<strong>Content:</strong> 2. The page contains an element with corresponding id=\"title\", which contains a text that describes the topic of the page.",
+        "<strong>Content:</strong> 3. The page contains a <code>div</code> element with corresponding id=\"img-div\".",
+        "<strong>Content:</strong> 4. Within the \"img-div\" element, the page contains an <code>img</code> element with a corresponding id=\"image\". ‣",
+        "<strong>Content:</strong> 5. Within the \"img-div\" element, the page contains an element with a corresponding id=\"img-caption\" that contains textual content describing the image shown in \"img-div\".",
+        "<strong>Content:</strong> 6. The page contains an element with a corresponding id=\"tribute-info\", which contains textual content describing the subject of the tribute page.",
+        "<strong>Content:</strong> 7. The page contains an <code>a</code> element with a corresponding id=\"tribute-link\", which links to an outside site that contains additional information about the subject of the tribute page.",
+        "<strong>Layout:</strong> 1. The <code>img</code> element should responsively resize, relative to the width of its parent element, without exceeding its original size.",
+        "<strong>Layout:</strong> 2. The <code>img</code> element should be centered within its parent element.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "January 1, 2016",
+      "challengeSeed": [
+        "Nk0DzQi"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {
+        "es": {
+          "title": "Construye una página Tributo",
+          "description": []
+        },
+        "pt-br": {
+          "title": "Construa uma Página Tributo",
+          "description": []
+        },
+        "ru": {
+          "title": "Создайте страницу посвященную тому что вас вдохновляет",
+          "description": []
+        }
+      }
+    },
+    {
+      "id": "587d78af367417b2b2512b03",
+      "title": "Build a Survey Form",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Tribute Page tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<strong>Content:</strong> 1. The page contains a title with id=\"title\" in <code>H1</code> sized text.",
+        "<strong>Content:</strong> 2. The page contains a short explanation with id=\"description\" in <code>P</code> sized text.",
+        "<strong>Content:</strong> 3. The page contains a <code>form</code> with id=\"survey-form\".",
+        "<strong>Content:</strong> 4. Inside the form element, I am required to enter my name in a field with id=\"name\".",
+        "<strong>Content:</strong> 5. Inside the form element, I am required to enter an email in a field with id=\"email\".",
+        "<strong>Content:</strong> 6. If I enter an email that is not formatted correctly, I will see an HTML5 validation error.",
+        "<strong>Content:</strong> 7. Inside the form, I can enter a number in a field with id=\"number\".",
+        "<strong>Content:</strong> 8. If I enter non-numbers in the number input, I will see an HTML5 validation error.",
+        "<strong>Content:</strong> 9. If I enter numbers outside the range of the number input, I will see an HTML5 validation error.",
+        "<strong>Content:</strong> 10. For the name, email, and number input fields inside the form The page contains corresponding labels that describe the purpose of each field with the following ids: id=\"name-label\", id=\"email-label\", and id=\"number-label\".",
+        "<strong>Content:</strong> 11. For the name, email, and number input fields, The page contains placeholder text that gives me a description or instructions for each field.",
+        "<strong>Content:</strong> 12. Inside the form element, I can select an option from a dropdown that has corresponding id=\"dropdown\".",
+        "<strong>Content:</strong> 13. Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.",
+        "<strong>Content:</strong> 14. Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.",
+        "<strong>Content:</strong> 15. Inside the form element, I am presented with a <code>textarea</code> at the end for additional comments.",
+        "<strong>Content:</strong> 16. Inside the form element, I am presented with a button with id=\"submit\" to submit all my inputs.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "January 15, 2017",
+      "challengeSeed": [
+        "A7Pn5zw"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    },
+    {
+      "id": "587d78af367417b2b2512b04",
+      "title": "Build a Product Landing Page",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Product Landing Page tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<strong>Content:</strong> 1. My product landing page should have a <code>header</code> element with corresponding id=\"header\".",
+        "<strong>Content:</strong> 2. I can see an image within the #header element with a corresponding id=\"header-img\". A company logo would make a good image here.",
+        "<strong>Content:</strong> 3. Within the <code>header</code> element I can see a <code>nav</code> element with corresponding id=\"nav-bar\".",
+        "<strong>Content:</strong> 4. I can see at least three clickable elements inside the nav element, each with the class \"nav-link\".",
+        "<strong>Content:</strong> 5. When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.",
+        "<strong>Content:</strong> 6. I can watch an embedded product video with id=\"video\".",
+        "<strong>Content:</strong> 7. My landing page has a <code>form</code> element with a corresponding id=\"form\".",
+        "<strong>Content:</strong> 8. Within the form, there is an <code>input</code> field with id=\"email\" where I can enter an email address.",
+        "<strong>Content:</strong> 9. The #email input field should have placeholder text to let the user know what the field is for.",
+        "<strong>Content:</strong> 10. The #email input field uses HTML5 validation to confirm that the entered text is an email address.",
+        "<strong>Content:</strong> 11. Within the form, there is a submit <code>input</code> with corresponding id=\"submit\".",
+        "<strong>Content:</strong> 12. When I click the #submit element, the email is submitted to a static page (use this mock URL: https://site.com/email-submit) that confirms the email address",
+        "<strong>Layout:</strong> 1. The navbar should always be at the top of the viewport.",
+        "<strong>Layout:</strong> 2. My product landing page should have at least one media query.",
+        "<strong>Layout:</strong> 3. My product landing page should utilize CSS flexbox at least once.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "January 15, 2017",
+      "challengeSeed": [
+        "ExCJjAT"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    },
+    {
+      "id": "587d78b0367417b2b2512b05",
+      "title": "Build a Technical Documentation Page",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Technical Documentation Page tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<strong>Content:</strong> 1. I can see a <code>main</code> element with a corresponding id=\"main-doc\", which contains the page main content (technical documentation).",
+        "<strong>Content:</strong> 2. Within the #main-doc ( <code>main</code> ) element, I can see several <code>section</code> elements, each with a class of \"main-section\". There should be a minimum of 5.",
+        "<strong>Content:</strong> 3. The first element within each .main-section should be a <code>header</code> element which contains text that describes the topic of that section.",
+        "<strong>Content:</strong> 4. Each <section> element with the class of \"main-section\" should also have an id that corresponds with the text of each <code>header</code> contained within it. Any spaces should be replaced with underscores (e.g. The <code>section</code> that contains the header \"JavaScript and Java\" should have a corresponding id=\"Javascript_and_Java\").",
+        "<strong>Content:</strong> 5. The .main-section elements should contain at least 10 <code>p</code> elements total (not each).",
+        "<strong>Content:</strong> 6. The .main-section elements should contain at least 5 <code>code</code> elements total (not each).",
+        "<strong>Content:</strong> 7. The .main-section elements should contain at least 5 <code>li</code> items total (not each).",
+        "<strong>Content:</strong> 8. I can see a <code>nav</code> element with a correspondingv id=\"navbar\".",
+        "<strong>Content:</strong> 9. The navbar element should contain one <code>header</code> element which contains text that describes the topic of the technical documentation.",
+        "<strong>Content:</strong> 10. Additionally, the navbar should contain link (<code>a</code>) elements with the class of \"nav-link\". There should be one for every element with the class \"main-section\".",
+        "<strong>Content:</strong> 11. The <code>header</code> element in the navbar must come before any link (<code>a</code>) elements in the navbar.",
+        "<strong>Content:</strong> 12. Each element with the class of \"nav-link\" should contain text that corresponds to the <code>header</code> text within each <code>section</code> (e.g. if you have a \"Hello world\" section/header, your navbar should have an element which contains the text \"Hello world\").",
+        "<strong>Content:</strong> 13. When I click on a navbar element, the page should navigate to the corresponding section of the \"main-do\" element (e.g. If I click on a \"nav-link\" element that contains the text \"Hello world\", the page navigates to a <code>section</code> element that has that id and contains the corresponding <code>header</code>.",
+        "<strong>Layout:</strong> 1. On regular sized devices (laptops, desktops), the element with id=\"navbar\" should be shown on the left side of the screen and should always be visible to the user.",
+        "<strong>Layout:</strong> 2. My Technical Documentation page should use at least one media query.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "January 15, 2017",
+      "challengeSeed": [
+        "cDIfODs"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    },
+    {
+      "id": "587d78b0367417b2b2512b06",
+      "title": "Build a Personal Portfolio Webpage",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Personal Portfolio Webpage tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<strong>Content:</strong> 1. My portfolio should have a Welcome section with an id of \"welcome-section\".",
+        "<strong>Content:</strong> 2. The welcome section should have an h1 element that contains text.",
+        "<strong>Content:</strong> 3. My portfolio should have a projects section with an id of \"projects\".",
+        "<strong>Content:</strong> 4. The projects section should contain at least one element with a class of \"project-tile\" to hold a project.",
+        "<strong>Content:</strong> 5. The projects section should contain at least one link to a project.",
+        "<strong>Content:</strong> 6. My portfolio should have a navbar with an id of \"navbar\".",
+        "<strong>Content:</strong> 7. The navbar should contain at least one link that I can click on to navigate to different sections of the page.",
+        "<strong>Content:</strong> 8. My portfolio should have a link with an id of \"profile-link\", which opens my FCC profile in a new tab.",
+        "<strong>Layout:</strong> 1. My portfolio page should use at least one media query.",
+        "<strong>Layout:</strong> 2. The height of the welcome section should be equal to the height of the viewport.",
+        "<strong>Layout:</strong> 3. The navbar should always be at the top of the viewport.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "challengeSeed": [
+        "Uw6sYKY"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {
+        "es": {
+          "title": "Construye una página web para tu portafolio",
+          "description": []
+        },
+        "pt-br": {
+          "title": "Construa uma Página de Portfólio Pessoal",
+          "description": [
+          ]
+        },
+        "ru": {
+          "title": "Создайте сайт-портфолио",
+          "description": [
+          ]
+        }
+      }
+    }
+  ]
+}

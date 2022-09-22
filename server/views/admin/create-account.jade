@@ -1,0 +1,32 @@
+extends ../layout
+block content
+    include ../partials/ajaxFlashMessage
+    .row.text-center
+        h2 Create new account:
+            .button-spacer
+        .col-sm-6.col-sm-offset-3
+            form(method='POST', action='/bhcca/create-account')
+                input(type='hidden', name='_csrf', value=_csrf)
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='email', name='email', id='email', placeholder='Email', autofocus=true, required)
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='text', name='username', id='username', placeholder='Username')
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='text', name='name', id='name', placeholder='Name')
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='text', name='location', id='location', placeholder='Location')
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='password', name='password', id='password', placeholder='Password')
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='password', name='confirmPassword', id='confirmpassword', placeholder='Confirm Password')
+                .button-spacer
+                button#magic-btn.btn.btn-primary.btn-lg.btn-block(type='submit')
+                    span Create Account
+                .button-spacer
+                .button-spacer
+                .button-spacer
+                .button-spacer
+                .button-spacer
+                .button-spacer
+                a.btn.btn-primary.btn-lg.btn-block(href='/bhcca')
+                    span Admin Home

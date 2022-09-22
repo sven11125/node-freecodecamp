@@ -1,0 +1,352 @@
+{
+	"name": "Advanced HTML and CSS Projects",
+	"order": 3,
+	"time": "110 hours",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+			"id": "f3dfa9d0dc86995bb82aecdd",
+			"title": "Advanced HTML and CSS Projects with Designs",
+			"description": [
+				[
+					"",
+					"",
+					"These projects will have you build a webpage based on a design.",
+					""
+				],
+				[
+					"",
+					"",
+					"You will be provided with the assets like text, fonts and images.",
+					""
+				],
+				[
+					"",
+					"",
+					"Your webpage should complete the design with the same look and feel as much as possible<br><br> It does not have to be exact.",
+					""
+				]
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": false,
+			"challengeType": 7
+		},
+		{
+			"id": "e4943b40e6bc0d2123847e49",
+			"title": "** Reviewing Professional Source Code - Advanced HTML",
+			"description": [
+				[
+					"",
+					"",
+					"Reading professional source code is a great way to learn.",
+					""
+				],
+				[
+					"",
+					"",
+					"You will be provided with professional source code after you complete each of these projects.",
+					""
+				],
+				[
+					"",
+					"",
+					"Take time to compare your source code to the professional version to learn what strategies and techniques were used.",
+					""
+				],
+				[
+					"",
+					"",
+					"Commit to not look at the professional source code <strong>until</strong> you have completed and submitted your project.",
+					"#"
+				]
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": true,
+			"challengeType": 7
+		},
+		{
+		  "id": "61898900e755651c0602081c",
+		  "title": "** Commit to not solve other students problems - Advanced HTML",
+		  "description": [
+			[
+			  "",
+			  "",
+			  "Computer programming requires excellent problem solving skills.<br><br>Working through problems with the help of documentation is a daily activity for all programmers.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "When students give help it should only be to point out where in the documentation, books or other materials where they can learn about a concept.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "Students should never give away a solution to a problem or share code that completes a problem.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "If a student is still unable to solve a problem, please, refer them to the tutor.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "If you and the other student(s) have finished and passed off the project or challenge feel free to discuss, share techniques and source code.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "However, <strong>please</strong> do not discuss within earshot of other students that have not passed off to that point.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "By clicking below you commit to <strong>not</strong> solve other students problems, share code or give away answers.",
+			  "#"
+			]
+		  ],
+		  "releasedOn": "May 10, 2018",
+		  "challengeSeed": [],
+		  "tests": [],
+		  "type": "Waypoint",
+		  "challengeType": 7,
+		  "isRequired": true
+		},
+		{
+			"id": "8b9f8e90e6bc19dfbda33527",
+			"title": "Interphase Webpage",
+			"description": [
+				"Build this designed webpage.",
+				"The page must match the design as close as possible.",
+				"<strong>Technology Stack:</strong> 1. Use only HTML and CSS.",
+				"<strong>Responsive Sizing:</strong> 2. No responsive sizing, use min-width: 1200px;",
+				"<a href='/projects/phase-i/interphase-webpage/project/interphase-webpage.png' target='_blank'>Click here</a> to view the full size image.",
+				"<a href='/projects/phase-i/interphase-webpage/project/interphase-webpage.png' target='_blank'><img src='/projects/phase-i/interphase-webpage/project/interphase-webpage.png' style='width:500px;'></a>",
+				"<a href='/projects/phase-i/interphase-webpage/project/interphase-webpage-use.mp4' target='_blank'>Click here</a> to watch a video of the interactive features of the project.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-i/interphase-webpage' target='_blank'>Click here</a> for the assets needed to build this project.",
+				"Link directly to the font-awesome css <a href='/cdn/vendor/font-awesome/4.7.0/css/font-awesome.min.css' target='_blank'>here</a>.",
+				"The font used for this project is lato, link directly to the css <a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-i/interphase-webpage/assets/css/lato.css' target='_blank'>here</a>.",
+				"Remember to use the Research-Ask method if you get stuck."
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [
+				"phTo6Ap"
+			],
+			"tests": [],
+			"type": "zipline",
+			"isRequired": true,
+			"challengeType": 3
+		},
+		{
+			"id": "8cba2650e6bc156bcc2d1c77",
+			"title": "Interphase Webpage Source Code Review",
+			"description": [
+				[
+					"",
+					"",
+					"Confirm that you have that you have completed and submitted the Interphase Webpage project.",
+					"#"
+				],
+				[
+					"",
+					"",
+					"Please review the professional source code and compare it to your own.<br><br><a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/review/interphase-webpage-8cba2650e6bc156bcc2d1c77' target='_blank' class='btn btn-primary'>Click here</a> to view the professional source code.",
+					""
+				],
+				[
+					"",
+					"",
+					"Confirm that you have reviewed the professional source code.",
+					"#"
+				]
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": true,
+			"challengeType": 7
+		},
+		{
+			"id": "ba0020c0e6c0c545d5663755",
+			"title": "Visualize Webpage",
+			"description": [
+				"Build this designed webpage.",
+				"The page must match the design as close as possible.",
+				"<strong>Technology Stack:</strong> 1. Use only HTML and CSS.",
+				"<strong>Responsive Sizing:</strong> 2. No responsive sizing, use min-width: 1200px;",
+				"<a href='/projects/phase-i/visualize-webpage/project/visualize-webpage.png' target='_blank'>Click here</a> to view the full size image.",
+				"<a href='/projects/phase-i/visualize-webpage/project/visualize-webpage.png' target='_blank'><img src='/projects/phase-i/visualize-webpage/project/visualize-webpage.png' style='width:500px;'></a>",
+				"<a href='/projects/phase-i/visualize-webpage/project/visualize-webpage-use.mp4' target='_blank'>Click here</a> to watch a video of the interactive features of the project.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-i/visualize-webpage' target='_blank'>Click here</a> for the assets needed to build this project.",
+				"Link directly to the font-awesome css <a href='/cdn/vendor/font-awesome/4.7.0/css/font-awesome.min.css' target='_blank'>here</a>.",
+				"The font used for this project is source, link directly to the css <a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-i/visualize-webpage/assets/css/source.css' target='_blank'>here</a>.",
+				"Remember to use the Research-Ask method if you get stuck."
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [
+				"Hk6KH3v"
+			],
+			"tests": [],
+			"type": "zipline",
+			"isRequired": true,
+			"challengeType": 3
+		},
+		{
+			"id": "bb00c7e0e6c03d2f8e741a91",
+			"title": "Visualize Webpage Source Code Review",
+			"description": [
+				[
+					"",
+					"",
+					"Confirm that you have that you have completed and submitted the Visualize Webpage project.",
+					"#"
+				],
+				[
+					"",
+					"",
+					"Please review the professional source code and compare it to your own.<br><br><a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/review/visualize-webpage-bb00c7e0e6c03d2f8e741a91' target='_blank' class='btn btn-primary'>Click here</a> to view the professional source code.",
+					""
+				],
+				[
+					"",
+					"",
+					"Confirm that you have reviewed the professional source code.",
+					"#"
+				]
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": true,
+			"challengeType": 7
+		},
+		{
+			"id": "0ccecd00e6c7a3b64486ddc4",
+			"title": "Epilogue Webpage",
+			"description": [
+				"Build this designed webpage.",
+				"The page must match the design as close as possible.",
+				"<strong>Technology Stack:</strong> 1. Use only HTML and CSS.",
+				"<strong>Responsive Sizing:</strong> 2. Design for 860px and 1600px;",
+				"<a href='/projects/phase-i/epilogue-webpage/project/epilogue-webpage-860.png' target='_blank'>Click here</a> to view the full size image for 860px.",
+				"<a href='/projects/phase-i/epilogue-webpage/project/epilogue-webpage-860.png' target='_blank'><img src='/projects/phase-i/epilogue-webpage/project/epilogue-webpage-860.png' style='width:500px;'></a>",
+				"<a href='/projects/phase-i/epilogue-webpage/project/epilogue-webpage-1600.png' target='_blank'>Click here</a> to view the full size image for 1600px.",
+				"<a href='/projects/phase-i/epilogue-webpage/project/epilogue-webpage-1600.png' target='_blank'><img src='/projects/phase-i/epilogue-webpage/project/epilogue-webpage-1600.png' style='width:500px;'></a>",
+				"<a href='/projects/phase-i/epilogue-webpage/project/epilogue-webpage-use.mp4' target='_blank'>Click here</a> to watch a video of the interactive features of the project.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-i/epilogue-webpage' target='_blank'>Click here</a> for the assets needed to build this project.",
+				"Link directly to the font-awesome css <a href='/cdn/vendor/font-awesome/4.7.0/css/font-awesome.min.css' target='_blank'>here</a>.",
+				"The font used for this project are the built in fonts helvetica and cursive.",
+				"Remember to use the Research-Ask method if you get stuck."
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [
+				"DYg6T2J"
+			],
+			"tests": [],
+			"type": "zipline",
+			"isRequired": true,
+			"challengeType": 3
+		},
+		{
+			"id": "0dc11c40e6c707cc22dfdfda",
+			"title": "Epilogue Webpage Source Code Review",
+			"description": [
+				[
+					"",
+					"",
+					"Confirm that you have that you have completed and submitted the Epilogue Webpage project.",
+					"#"
+				],
+				[
+					"",
+					"",
+					"Please review the professional source code and compare it to your own.<br><br><a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/review/epilogue-webpage-0dc11c40e6c707cc22dfdfda' target='_blank' class='btn btn-primary'>Click here</a> to view the professional source code.",
+					""
+				],
+				[
+					"",
+					"",
+					"Confirm that you have reviewed the professional source code.",
+					"#"
+				]
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": true,
+			"challengeType": 7
+		},
+		{
+			"id": "723dd530e6c955ed5a82073e",
+			"title": "Industrious Webpage",
+			"description": [
+				"Build this designed webpage.",
+				"The page must match the design as close as possible.",
+				"<strong>Technology Stack:</strong> 1. Use only HTML and CSS.",
+				"<strong>Responsive Sizing:</strong> 2. Design for 860px and 1600px;",
+				"<a href='/projects/phase-i/industrious-webpage/project/industrious-webpage-860.png' target='_blank'>Click here</a> to view the full size image for 860px.",
+				"<a href='/projects/phase-i/industrious-webpage/project/industrious-webpage-860.png' target='_blank'><img src='/projects/phase-i/industrious-webpage/project/industrious-webpage-860.png' style='width:500px;'></a>",
+				"<a href='/projects/phase-i/industrious-webpage/project/industrious-webpage-1600.png' target='_blank'>Click here</a> to view the full size image for 1600px.",
+				"<a href='/projects/phase-i/industrious-webpage/project/industrious-webpage-1600.png' target='_blank'><img src='/projects/phase-i/industrious-webpage/project/industrious-webpage-1600.png' style='width:500px;'></a>",
+				"<a href='/projects/phase-i/industrious-webpage/project/industrious-webpage-use.mp4' target='_blank'>Click here</a> to watch a video of the interactive features of the project.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-i/industrious-webpage' target='_blank'>Click here</a> for the assets needed to build this project.",
+				"Link directly to the font-awesome css <a href='/cdn/vendor/font-awesome/4.7.0/css/font-awesome.min.css' target='_blank'>here</a>.",
+				"The font used for this project is raleway, link directly to the css <a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-i/industrious-webpage/assets/css/raleway.css' target='_blank'>here</a>.",
+				"Remember to use the Research-Ask method if you get stuck."
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [
+				"jSjODzZ"
+			],
+			"tests": [],
+			"type": "zipline",
+			"isRequired": true,
+			"challengeType": 3
+		},
+		{
+			"id": "73152260e6c94587960b4543",
+			"title": "Industrious Webpage Source Code Review",
+			"description": [
+				[
+					"",
+					"",
+					"Confirm that you have that you have completed and submitted the Industrious Webpage project.",
+					"#"
+				],
+				[
+					"",
+					"",
+					"Please review the professional source code and compare it to your own.<br><br><a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/review/industrious-webpage-73152260e6c94587960b4543' target='_blank' class='btn btn-primary'>Click here</a> to view the professional source code.",
+					""
+				],
+				[
+					"",
+					"",
+					"Confirm that you have reviewed the professional source code.",
+					"#"
+				]
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": true,
+			"challengeType": 7
+		}
+	]
+}

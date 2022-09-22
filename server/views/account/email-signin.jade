@@ -1,0 +1,33 @@
+extends ../layout
+block content
+    .container
+        .row
+          if flashMessage
+            .col-sm-6.col-sm-offset-3.flashMessage.negative-30
+                  #flash-board.alert.alert-success.fade.in()
+                      button.close(type='button', data-dismiss='alert')
+                          span.ion-close-circled#flash-close
+                      #flash-content #{flashMessage}
+                      
+
+        .row
+          .text-center
+            h2 Sign in:
+              .button-spacer
+          .col-sm-6.col-sm-offset-3
+              form(method='POST', action='/signin')
+                  input(type='hidden', name='_csrf', value=_csrf)
+                  .form-group
+                      input.input-lg.form-control(type='email', name='email', id='email', value='#{email ? email : ""}', placeholder='Email', autofocus=true, required)
+                  .form-group
+                      input.input-lg.form-control(type='password', name='password', id='password', value='#{password ? password : ""}', placeholder='Password', required) 
+                  .button-spacer
+                  button#magic-btn.btn.btn-primary.btn-lg.btn-block(type='submit')
+                    span Sign in
+
+        if !settings.isSignUpDisabled
+            .row
+                .text-center
+                    h3 Or
+                    h2
+                        a(href='/signup', style='font-weight:normal;font-size:inherit') Sign Up here 

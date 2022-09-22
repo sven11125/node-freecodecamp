@@ -1,0 +1,44 @@
+
+.row
+	.col-sm-6.col-sm-offset-3.flashMessage.negative-30
+			#flash-board.alert.alert-success.fade.in(style='display: none;')
+				#flash-content #{flashMessage}
+
+script.
+	$(document).ready(function() {
+		$('form').submit(function(event){
+			event.preventDefault();
+			$('#flash-board').hide();
+			var $form = $(event.target);
+			$.ajax({
+				type        : 'POST',
+				url         : $form.attr('action'),
+				data        : $form.serialize(),
+				dataType    : 'json',
+				encode      : true,
+				xhrFields   : { withCredentials:  true }
+			})
+			.fail(error => {
+				if (error.responseText){
+					var data = JSON.parse(error.responseText);
+					if(data.message)
+					$('#flash-content').html(data.message);
+					$('#flash-board')
+						.removeClass('alert-success')
+						.addClass('alert-danger')
+						.fadeIn();
+					}
+			})
+			.done(data =>{
+				if(data && data.message){
+					$('#flash-content').html(data.message);
+					$('#flash-board')
+						.removeClass('alert-danger')
+						.addClass('alert-success')
+						.fadeIn();
+					$('.success-clear-value').val('')
+					$('input[autofocus]').focus()
+				}
+			});
+		});
+	});

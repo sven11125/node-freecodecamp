@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<head></head>
+<html>
+
+<body>
+
+
+	<div style='background:#cdcdcd;padding:20px;margin-top:20px;display:flex;'>
+		<div style='width:600px;margin-right:20px;'>
+
+
+			<!-- ********      LESSON      ******** -->
+
+
+			Other Storage Methods
+
+			<p> The full API for Storage can be found
+				<a href='http://brickhousecodecamp.org/docs/javascript/developer.mozilla.org/en-US/docs/Web/API/Storage.html' target='_blank'>
+					here
+				</a>.
+			</p>
+
+			<p> These methods include removeItem (for removing a single item by key) and clear (for removing all items). </p>
+
+
+			<p> For example: </p>
+
+			<p> The following removes an item from local storage. </p>
+
+			<blockquote>
+				localStorage.removeItem('bgcolor');
+			</blockquote>
+
+			<hr>
+			Add a click mouse event to the remove button and remove the background color item with the key <em>background-color</em>.
+
+
+			<!-- ********      END LESSON      ******** -->
+
+
+		</div>
+		<div>
+
+
+			<!-- ********      CHALLENGE SEED      ******** -->
+			<textarea style='width:600px;height:400px;display:block;'>
+
+
+
+<h1>local web storage</h1>
+
+<button id='remove-button'>Remove</button>
+
+
+
+			</textarea>
+			<!-- ********      END CHALLENGE SEED      ******** -->
+
+
+		</div>
+	</div>
+
+	<div style='background:#acacac;padding:20px;margin-top:20px;display:flex;'>
+
+		<div style='width:600px;margin-right:20px;'>
+			<button id='run-tests'>Run Tests</button>
+			<div id='test-results' style='margin-top:20px;'></div>
+		</div>
+
+
+		<!-- ********      SOLUTION      ******** -->
+		<textarea id='solution-text' style='width:600px;height:400px;display:block;'>
+
+
+
+<h1>local web storage</h1>
+
+<button id='remove-button'>Remove</button>
+
+<script>
+
+	document.getElementById('remove-button').addEventListener('click', function () {
+
+		localStorage.removeItem('background-color');
+
+	});
+
+</script>
+
+
+
+		</textarea>
+		<!-- ********      END SOLUTION      ******** -->
+
+
+	</div>
+
+	<script src='http://brickhousecodecamp.org/educationMaterials/frameworks/js/chai.js'></script>
+	<script>
+
+		document.getElementById('run-tests').addEventListener('click', function () {
+
+			var solution = document.getElementById('solution-text').value;
+
+			var assert = chai.assert;
+			var code = solution;
+			var result = 'Test Passed';
+
+			try {
+
+
+
+				// <!-- ********      ASSERTS      ******** -->
+				// When clicking remove the local storage item with a key name of background-color should be removed from local storage.
+				assert(code.match(/localStorage\.removeItem\(["|']background-color["|']/gi), 'message: Remove the local storage item with the key background-color.');
+
+				// assert.isDefined(localStorage['background-color'], 'message: The background-color key must be set on the localStorage.');
+				// assert.isNotNull(localStorage['background-color'], 'message: The background-color key must not be null.');
+				// assert.notStrictEqual(localStorage['background-color'], '', 'message: The background-color key must not be empty.');
+
+				// <!-- ********      END ASSERTS      ******** -->
+
+			} catch (error) {
+
+				result = error.message;
+			}
+
+			document.getElementById('test-results').textContent = result;
+		});
+
+
+	</script>
+
+</body>
+
+</html>

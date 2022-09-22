@@ -1,0 +1,7 @@
+﻿@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 300;
+    src: local('☺'),
+        url(/assets/fonts/Lobster-Regular.ttf) format('truetype');
+}

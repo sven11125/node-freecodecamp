@@ -1,0 +1,126 @@
+{
+  "name": "Advanced JavaScript Projects",
+  "order": 5,
+  "time": "5 hours",
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "135344b054934be52b430443",
+      "title": "** Commit to not solve other students problems - Advanced JavaScript",
+      "description": [
+        [
+          "",
+          "",
+          "Computer programming requires excellent problem solving skills.<br><br>Working through problems with the help of documentation is a daily activity for all programmers.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "When students give help it should only be to point out where in the documentation, books or other materials where they can learn about a concept.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Students should never give away a solution to a problem or share code that completes a problem.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "If a student is still unable to solve a problem, please, refer them to the tutor.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "If you and the other student(s) have finished and passed off the project or challenge feel free to discuss, share techniques and source code.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "However, <strong>please</strong> do not discuss within earshot of other students that have not passed off to that point.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "By clicking below you commit to <strong>not</strong> solve other students problems, share code or give away answers.",
+          "#"
+        ]
+      ],
+      "releasedOn": "May 10, 2018",
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7,
+      "isRequired": true
+    },
+    {
+      "id": "23c56e80561a7314d0080f5d",
+      "title": "Animate World UI",
+      "description": [
+        "Create a new Animate World UI script to display your Electronic Life world.",
+        "<strong>Technology Stack:</strong> 1. Use only HTML, CSS, JavaScript, and DOM, do NOT use any libraries.",
+        "The UI can be your own design.",
+        "You can use Chapter 7 of <a href='http://brickhousecodecamp.org/educationMaterials/booksMaterials/coursework%20(required%20reading)/03-Eloquent%20Javascript%20-%20Haverbeke/Eloquent%20Javascript%20-%20Haverbeke.pdf' target='_blank'><em>Eloquent JavaScript</em></a> and the previously provided <a href='http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/eletronic-life/animateworld.js' target='_blank'>animateworld.js</a> script as a reference.",
+        "You should <strong>not</strong> modify your previous world javascript to make it work with your new animate world javascript, you should only create and modify your new animate world javascript.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "May 12, 2018",
+      "challengeSeed": [
+        "2dUI8Gv"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    },
+    {
+      "id": "524027405490e943fc504e97",
+      "title": "Egg Popup",
+      "description": [
+        "Build the Egg Popup as seen in the video bellow.",
+        "<video src='http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/egg-popup/egg-popup.mp4' style='width:500px;' controls='' preload='auto' poster='http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/egg-popup/egg-popup.png'></video>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML, CSS, JavaScript, and DOM, do NOT use any libraries.",
+        "The images can be found and linked to <a href='http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/egg-popup' target='_blank'>here</a>.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "May 12, 2018",
+      "challengeSeed": [
+        "LPv1rfn"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    },
+    {
+      "id": "34ec0e8055204dd99e3673fd",
+      "title": "Bejeweled",
+      "description": [
+        "Build <em>Bejeweled</em>",
+        "<a href='http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/bejeweled/bejeweled.png' target='_blank'><img src='http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/bejeweled/bejeweled.png' style='width:500px;'></a>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML, CSS, JavaScript, and DOM.<br> You may and are encouraged to use require.js.<br> Do NOT use any other libraries and do not use images, CSS only for now.",
+        "The game board will have the following components:<ul><li>8 rows and 8 columns</li><li>a progress bar</li><li>a score</li><li>a new game button</li></ul>",
+        "<strong>Game Rules: </strong>We will follow all the rules as defined in the <a href='http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/bejeweled/Bejeweled-Wikipedia.html' target='_blank'>Wikipedia page</a> about bejeweled.",
+        "We will <strong>ONLY</strong> be implementing the <em>Normal Mode</em>.",
+        "We will <strong>NOT</strong> be implementing <em>Time Trial Mode</em>, or game options.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "May 12, 2018",
+      "challengeSeed": [
+        "vYnSTNs"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    }
+  ]
+}

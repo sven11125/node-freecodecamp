@@ -1,0 +1,98 @@
+{
+	"name": "Introduction to the Web APIs and the DOM",
+	"time": "5 minutes",
+	"order": 2,
+	"helpRoom": "HelpJavaScript",
+	"challenges": [
+		{
+			"id": "19f7ac001821db98be556fe3",
+			"title": "Introduction to the Web APIs and the DOM",
+			"description": [
+				[
+					"",
+					"",
+					"When writing code for the Web with JavaScript, there are a many <a href='http://brickhousecodecamp.org/wikipedia/application_programming_interface.html' target='_blank'>application programming interfaces (APIs)</a> available.",
+					""
+				],
+				[
+					"",
+					"",
+					"Part of the Web APIs is the Document Object Model (DOM).",
+					""
+				],
+				[
+					"",
+					"",
+					"The DOM allows programmatic access to change the HTML and CSS of a web page with JavaScript.",
+					""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "waypoint",
+			"challengeType": 7,
+			"isRequired": false,
+			"translations": {}
+		},
+		{
+			"id": "1a8c71f018210fc90408c93f",
+			"title": "Documentation for the DOM",
+			"description": [
+				[
+					"",
+					"",
+					"You will need documentation for the DOM.",
+					""
+				],
+				[
+					"",
+					"",
+					"The best documentation for the DOM is found on the Mozilla Developer Network (MDN).<br><br> You can find the MDN docs<br><br> <a href='http://brickhousecodecamp.org/docs/Javascript/developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model.html' target='_blank'>here (developer.mozilla.org DOM)</a>",
+					""
+				],
+				[
+					"",
+					"",
+					"You need to get very familiar with this site.",
+					""
+				],
+				[
+					"",
+					"",
+					"Try it out. Go to the DOM docs and look for the definition of HTMLBodyElement.",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false
+		},
+		{
+			"id": "1b065ce0182149d3494c2d3a",
+			"title": "** Read Professional JavaScript 8 through 14",
+			"description": [
+				[
+					"",
+					"",
+					"It is recommended that you read the chapters 8 through 14 (skip chapter 9) of the book:<br><br> <em>Professional JavaScript for Web Developers</em><br><br> by Nicholas C. Zakas",
+					""
+				],
+				[
+					"",
+					"",
+					"Please commit to reading chapters 8 through 14 before you reach the Beginning Web Development lessons.",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": true
+		}
+	]
+}

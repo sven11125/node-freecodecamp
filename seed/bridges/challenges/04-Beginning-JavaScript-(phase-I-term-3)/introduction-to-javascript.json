@@ -1,0 +1,86 @@
+{
+	"name": "Introduction to JavaScript",
+	"time": "5 minutes",
+	"order": 0,
+	"helpRoom": "HelpJavaScript",
+	"challenges": [
+	  {
+		"id": "bd6123c9c441eddfaeb4bdef",
+		"title": "Introduction to JavaScript",
+		"description": [
+		  [
+			"",
+			"",
+			"JavaScript (JS) is a high-level programming language that all modern web browsers support. It is also one of the core technologies of the web, along with HTML and CSS that you may have learned previously. This section will cover basic programming concepts in JavaScript, which range from variables and arithemtic to objects and loops.",
+			""
+		  ]
+		],
+		"challengeSeed": [],
+		"tests": [],
+		"type": "waypoint",
+		"challengeType": 7,
+		"isRequired": false,
+		"translations": {}
+	  },
+		{
+			"id": "91736300181ca12fd8ac6372",
+			"title": "Documentation for JavaScript",
+			"description": [
+				[
+					"",
+					"",
+					"You will need documentation for JavaScript.",
+					""
+				],
+				[
+					"",
+					"",
+					"The best documentation for JavaScript is found on the Mozilla Developer Network (MDN). <div>You can add the word MDN to any search to find the document on the MDN.</div>",
+					""
+				],
+				[
+					"",
+					"",
+					"Try it out. Use this search on Google:<br><br>JavaScript array mdn",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false
+		},
+		{
+			"id": "91c92420181cabff74e62d59",
+			"title": "** Read Professional JavaScript 1 through 7",
+			"description": [
+				[
+					"",
+					"",
+					"It is recommended that you read the chapters 1 through 7, and 24 of the book:<br><br> <em>Professional JavaScript for Web Developers</em><br><br> by Nicholas C. Zakas",
+					""
+				],
+				[
+					"",
+					"",
+					"You may find a free pdf or html version of the book online.<br><br>You can search Google for a pdf version of the book by including the words 'pdf'.",
+					""
+				],
+				[
+					"",
+					"",
+					"Please commit to reading chapters 1 through 7, and 24 before you reach the advanced JavaScript lessons.",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": true
+		}
+	]
+  }

@@ -1,0 +1,81 @@
+{
+	"name": "Beginning Web Development Projects",
+	"order": 0,
+	"time": "60 hours",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+		  "id": "62ebb830ecd3f7ee01025145",
+		  "title": "** Commit to not solve other students problems - Beginning Web",
+		  "description": [
+			[
+			  "",
+			  "",
+			  "Computer programming requires excellent problem solving skills.<br><br>Working through problems with the help of documentation is a daily activity for all programmers.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "When students give help it should only be to point out where in the documentation, books or other materials where they can learn about a concept.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "Students should never give away a solution to a problem or share code that completes a problem.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "If a student is still unable to solve a problem, please, refer them to the tutor.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "If you and the other student(s) have finished and passed off the project or challenge feel free to discuss, share techniques and source code.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "However, <strong>please</strong> do not discuss within earshot of other students that have not passed off to that point.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "By clicking below you commit to <strong>not</strong> solve other students problems, share code or give away answers.",
+			  "#"
+			]
+		  ],
+		  "releasedOn": "May 10, 2018",
+		  "challengeSeed": [],
+		  "tests": [],
+		  "type": "Waypoint",
+		  "challengeType": 7,
+		  "isRequired": true
+		},
+		{
+			"id": "74c80400ecd32f9f26dfed57",
+			"title": "User Management Page",
+			"description": [
+				"Build the page as defined in the project definition.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-01-page/user-management-01-page.html' target='_blank' class='btn btn-primary'>Click here</a> to see the project definition.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-01-page/user-management-01-page.png' target='_blank'>Click here</a> to view the full size image.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-01-page/user-management-01-page.png' target='_blank'><img src='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-01-page/user-management-01-page.png' style='width:500px;'></a>",
+				"Remember to use the Research-Ask method if you get stuck."
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [
+				"cRCeQmr"
+			],
+			"tests": [],
+			"type": "zipline",
+			"isRequired": true,
+			"challengeType": 3
+		}
+	]
+}

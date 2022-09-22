@@ -1,0 +1,243 @@
+{
+    "name": "DOM Events",
+    "order": 3,
+    "time": "5 hours",
+    "helpRoom": "Help",
+    "challenges": [	
+        {
+			"id": "587d7fad367417b2b2512be1",
+			"title": "Handle Click Events with JavaScript using the onclick property",
+			"description": [
+				"You want your code to execute only once your page has finished loading. For that purpose, you can attach a JavaScript event to the document called <code>DOMContentLoaded</code>. Here's the code that does this:",
+				"<blockquote>document.addEventListener('DOMContentLoaded',function() {<br><br>});</blockquote>",
+				"You can implement event handlers that go inside of the <code>DOMContentLoaded</code> function. You can implement an <code>onclick</code> event handler which triggers when the user clicks on the element with id <code>getMessage</code>, by adding the following code:",
+				"<blockquote>document.getElementById('getMessage').onclick=function(){};</blockquote>",
+				"<hr>",
+				"Add a click event handler inside of the <code>DOMContentLoaded</code> function for the element with id of <code>getMessage</code>."
+			],
+			"tests": [
+				{
+					"text": "Your code should use the <code>document.getElementById</code> method to select the <code>getMessage</code> element.",
+					"testString": "assert(code.match(/document\\.getElementById\\(\\s*?('|\")getMessage\\1\\s*?\\)/g), 'Your code should use the <code>document.getElementById</code> method to select the <code>getMessage</code> element.');"
+				},
+				{
+					"text": "Your code should add an <code>onclick</code> event handler.",
+					"testString": "assert(typeof document.getElementById('getMessage').onclick === 'function', 'Your code should add an <code>onclick</code> event handler.');"
+				}
+			],
+			"solutions": [],
+			"hints": [],
+			"releasedOn": "Feb 17, 2017",
+			"challengeType": 0,
+			"translations": {},
+			"files": {
+				"indexhtml": {
+					"key": "indexhtml",
+					"ext": "html",
+					"name": "index",
+					"contents": [
+						"<script>",
+						"  document.addEventListener('DOMContentLoaded',function(){",
+						"    // Add your code below this line",
+						"    ",
+						"    ",
+						"    // Add your code above this line",
+						"  });",
+						"</script>",
+						"<style>",
+						"  body {",
+						"    text-align: center;",
+						"    font-family: \"Helvetica\", sans-serif;",
+						"  }",
+						"  h1 {",
+						"    font-size: 2em;",
+						"    font-weight: bold;",
+						"  }",
+						"  .box {",
+						"    border-radius: 5px;",
+						"    background-color: #eee;",
+						"    padding: 20px 5px;",
+						"  }",
+						"  button {",
+						"    color: white;",
+						"    background-color: #4791d0;",
+						"    border-radius: 5px;",
+						"    border: 1px solid #4791d0;",
+						"    padding: 5px 10px 8px 10px;",
+						"  }",
+						"  button:hover {",
+						"    background-color: #0F5897;",
+						"    border: 1px solid #0F5897;",
+						"  }",
+						"</style>",
+						"<h1>Cat Photo Finder</h1> ",
+						"<p class=\"message box\">",
+						"  The message will go here",
+						"</p>",
+						"<p>",
+						"  <button id=\"getMessage\">",
+						"    Get Message",
+						"  </button>",
+						"</p>"
+					],
+					"head": [],
+					"tail": []
+				}
+			}
+		},
+		{
+			"id": "587d7fad367417b2b2512be2",
+			"title": "Change Text with click Events",
+			"description": [
+				"When the click event happens, you can use JavaScript to update an HTML element.",
+				"For example, when a user clicks the \"Get Message\" button, it changes the text of the element with the class <code>message</code> to say \"Here is the message\".",
+				"This works by adding the following code within the click event:",
+				"<code>document.getElementsByClassName('message')[0].innerHTML=\"Here is the message\";</code>",
+				"<hr>",
+				"Add code inside the <code>onclick</code> event handler to change the text inside the <code>message</code> element to say \"Here is the message\"."
+			],
+			"tests": [
+				{
+					"text": "Your code should use the <code>document.getElementsByClassName</code> method to select the element with class <code>message</code> and set its <code>innerHTML</code> to the given string.",
+					"testString": "assert(code.match(/document\\.getElementsByClassName\\(\\s*?('|\")message\\1\\s*?\\)\\[0\\]\\.innerHTML\\s*?=\\s*?('|\")Here is the message\\2/g), 'Your code should use the <code>document.getElementsByClassName</code> method to select the element with class <code>message</code> and set its <code>innerHTML</code> to the given string.');"
+				}
+			],
+			"solutions": [],
+			"hints": [],
+			"releasedOn": "Feb 17, 2017",
+			"challengeType": 0,
+			"translations": {},
+			"files": {
+				"indexhtml": {
+					"key": "indexhtml",
+					"ext": "html",
+					"name": "index",
+					"contents": [
+						"<script>",
+						"  document.addEventListener('DOMContentLoaded',function(){",
+						"    document.getElementById('getMessage').onclick=function(){",
+						"      // Add your code below this line",
+						"      ",
+						"      ",
+						"      // Add your code above this line",
+						"    }",
+						"  });",
+						"</script>",
+						"<style>",
+						"  body {",
+						"    text-align: center;",
+						"    font-family: \"Helvetica\", sans-serif;",
+						"  }",
+						"  h1 {",
+						"    font-size: 2em;",
+						"    font-weight: bold;",
+						"  }",
+						"  .box {",
+						"    border-radius: 5px;",
+						"    background-color: #eee;",
+						"    padding: 20px 5px;",
+						"  }",
+						"  button {",
+						"    color: white;",
+						"    background-color: #4791d0;",
+						"    border-radius: 5px;",
+						"    border: 1px solid #4791d0;",
+						"    padding: 5px 10px 8px 10px;",
+						"  }",
+						"  button:hover {",
+						"    background-color: #0F5897;",
+						"    border: 1px solid #0F5897;",
+						"  }",
+						"</style>",
+						"<h1>Cat Photo Finder</h1> ",
+						"<p class=\"message box\">",
+						"  The message will go here",
+						"</p>",
+						"<p>",
+						"  <button id=\"getMessage\">",
+						"    Get Message",
+						"  </button>",
+						"</p>"
+					],
+					"head": [],
+					"tail": []
+				}
+			}
+		},
+        {
+            "id": "84ee88402700db21189de995",
+            "title": "Attaching an event to an element",
+            "description": [
+                "Using the methods shown in the intoduction, attach an event to the submit button that runs checkInput when submit is clicked."
+            ],
+            "challengeSeed": [
+                "<html>",
+                "<input type=\"text\" id=\"userNameInput\" placeholder=\"Username\">",
+                "<input type=\"text\" id=\"passwordInput\" placeholder=\"password\">",
+                "<button id=\"submit-button\">submit</button>",
+                "<div id=\"response\">Please Enter Your Username And Password</div>",
+                "</html>",
+                "",
+                "<script>",
+                "   function checkInput(userName, password) {",
+                "       var response = document.getElementById('response');",
+                "       response.innerText = \"Congratulations!!!\";",
+                "   }",
+                "   //change code below this line",
+                "       var el = ",
+                "   //change code above this line",
+                "</script>"
+            ],
+            "tests": [
+                "assert(code.match(/el\\.addEventListener\\(\\s*'click'\\s*,\\s*checkInput\\s*,\\s*false\\s*\\)|el\\.addEventListener\\(\\s*\"click\"\\s*,\\s*checkInput\\s*,\\s*false\\s*\\)/), 'message: Your code should set an event such that when submit is clicked checkInput is run');"
+            ],
+            "type": "waypoint",
+            "challengeType": 0,
+            "translations": {}
+        },
+        {
+            "id": "84ee88402700db21189de996",
+            "title": "Stopping event bubbling",
+            "description": [
+                "<a href=\"/images/eventFlow.png\" target=\"_blank\"><img class=\"img-responsive\" src=\"/images/eventFlow.png\" title=\"An image taken From Ducket's JavaScript & JQuery\" alt=\"an image illustrating how events bubble from most specific to least specific\"></a>",
+                "when an event is triggered it will be triggered on the most specific item that recieved the event then each of it's parent elements recieve the event up until there are no more parent elements",
+                "<a href=\"/images/eventObject.png\" target=\"_blank\"><img class=\"img-responsive\" src=\"/images/eventObject.png\" title=\"An image taken From Ducket's JavaScript & JQuery\" alt=\"an image illustrating the event object\"></a>",
+                "<hr>",
+                "add code such that if the unordered list or any item inside the list is clicked it will call the function printInnerHTML, however ensure that there is only one call to printInnerHTML."
+            ],
+            "challengeSeed": [
+                "<html>",
+                "   <body>",
+                "       <ul id=\"list\">",
+                "           <li id=\"item1\">item1</li>",
+                "           <li id=\"item2\">item2</li>",
+                "           <li id=\"item3\">item3</li>",
+                "       </ul>",
+                "   </body>",
+                "</html>",
+                "",
+                "<script>",
+                "   //change code below this line",
+                "   function printInnerHTML(e) {",
+                "       console.log(e.target.innerHTML);",
+                "   }",
+                "       var list = document.getElementById('list');",
+                "       var item1 = document.getElementById('item1');",
+                "       var item2 = document.getElementById('item2');",
+                "       var item3 = document.getElementById('item3');",
+                "   //change code above this line",
+                "</script>"
+            ],
+            "tests": [
+                "assert(code.match(/list\\.addEventListener\\('click',\\s*printInnerHTML\\)|list\\.addEventListener\\(\"click\",\\s*printInnerHTML\\)/), 'message: Your code should set an event such that when the list is clicked printInnerHTML is run');",
+                "assert(code.match(/item1\\.addEventListener\\('click',\\s*printInnerHTML\\)|item1\\.addEventListener\\(\"click\",\\s*printInnerHTML\\)/), 'message: Your code should set an event such that when the first item in the list is clicked printInnerHTML is run');",
+                "assert(code.match(/item2\\.addEventListener\\('click',\\s*printInnerHTML\\)|item2\\.addEventListener\\(\"click\",\\s*printInnerHTML\\)/), 'message: Your code should set an event such that when the second item in the list is clicked printInnerHTML is run');",
+                "assert(code.match(/item3\\.addEventListener\\('click',\\s*printInnerHTML\\)|item3\\.addEventListener\\(\"click\",\\s*printInnerHTML\\)/), 'message: Your code should set an event such that when the third item in the list is clicked printInnerHTML is run');",
+                "assert(code.match(/e\\.stopPropagation\\(\\)/), 'message: Your code should stop the events from bubbling once the event has been handled.');"
+            ],
+            "type": "waypoint",
+            "challengeType": 0,
+            "translations": {}
+        }
+    ]
+}

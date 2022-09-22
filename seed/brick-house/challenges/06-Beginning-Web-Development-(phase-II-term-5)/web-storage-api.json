@@ -1,0 +1,143 @@
+{
+	"name": "Web Storage API",
+	"order": 0,
+	"time": "2 hours",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+		  "id": "7ca053b0c58e0537242c43f8",
+		  "title": "Introduction to Web Storage API",
+		  "description": [
+				[
+					"",
+					"",
+					"The <a href='http://brickhousecodecamp.org/docs/javascript/developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API.html'> <strong>Web Storage API</strong> </a> allows for the storage of key value pairs in the browser.",
+					""
+				],
+				[
+					"",
+					"",
+					"The Web Storage API can store values using two different systems, <code>sessionStorage</code> and <code>localStorage</code>.<br><br><ul><li><code>sessionStorage</code> is a storage area for the duration of the page session (as long as the browser is open and is removed when the browser is closed).</li><li><code>localStorage</code> persists even when the browser is closed and reopened.</li></ul>",
+					""
+				],
+				[
+					"",
+					"",
+					"The Web Storage API extends the <code>Window</code> object with two properties — <code>Window.sessionStorage</code> and <code>Window.localStorage</code>.<br><br> These two objects implement the <code>Storage</code> interface.<br><br> There is also <code>Window.onstorage</code> event handler that fires when a storage area changes.",
+					""
+				],
+				[
+					"",
+					"",
+					"For these challenges we will use localStorage.",
+					""
+				]
+		  ],
+			"releasedOn": "Oct 1, 2018",
+		  "challengeSeed": [],
+		  "tests": [],
+		  "type": "Waypoint",
+		  "challengeType": 7,
+		  "isRequired": false,
+		  "translations": {}
+		},
+		{
+			"id": "a5188bb0c58d118854072f21",
+			"title": "Storage.setItem()",
+			"description": [
+				"The <code>setItem()</code> method of the <a href='http://brickhousecodecamp.org/docs/javascript/developer.mozilla.org/en-US/docs/Web/API/Storage/setItem.html' title='The Storage interface of the Web Storage API provides access to the session storage or local storage for a particular domain, allowing you to for example add, modify or delete stored data items.' target='_blank'> <code>Storage</code> </a> interface, when passed a key name and value, will add that key to the storage, or update that key's value if it already exists.",
+				"<blockquote><em>storage</em>.setItem(<em>keyName</em>, <em>keyValue</em>);</blockquote>",
+				"For example:",
+				"The following creates two data items inside local storage.",
+				"<blockquote>localStorage.setItem('bgcolor', 'red');<br>localStorage.setItem('font', 'Helvetica'); </blockquote>",
+				"Values can also be set by using array notation and assignment.",
+				"<blockquote>localStorage['bgcolor'] = 'red';<br>localStorage['font'] = 'Helvetica'; </blockquote>",
+				"<hr>",
+				"Add a click mouse event to the save button.<br>In the event handler use local storage to save the background color value with the key <em>background-color</em>.<br>Before running the test, click the save button to save the value to local storage."
+			],
+      "challengeSeed": [
+				"<h1>local web storage</h1>",
+				"",
+				"<div>",
+				"  Choose background color:",
+				"  <input id='background-color-text' value='FF0000'>",
+				"</div>",
+				"",
+				"<button id='save-button'>Save</button>"
+      ],
+			"tests": [
+				{
+					"text": "When clicking save your code should save a storage item to local storage with a key name of background-color.",
+					"testString": "assert(code.match(/localStorage\\[[\"|']background-color[\"|']\\]\\s*?=|localStorage\\.setItem\\([\"|']background-color[\"|'],/gi), 'message: Set a local storage item to localStorage with the key background-color.');"
+				}
+			],
+			"solutions": [],
+			"hints": [],
+			"releasedOn": "Oct 1, 2018",
+			"challengeType": 0
+		},
+		{
+			"id": "26eb30a0c6492d38478f1682",
+			"title": "Storage.getItem()",
+			"description": [
+				"The <code>getItem()</code> method of the <a href='http://brickhousecodecamp.org/docs/javascript/developer.mozilla.org/en-US/docs/Web/API/Storage/getItem.html' target='_blank'> <code>Storage</code> </a> interface, when passed a key name, will return that key's value.",
+				"<blockquote>var <em>aValue</em> = <em>storage</em>.getItem(<em>keyName</em>);</blockquote>",
+				"For example:",
+				"The following creates two data items inside local storage.",
+				"<blockquote>var currentColor = localStorage.getItem('bgcolor');<br>var currentFont = localStorage.getItem('font');</blockquote>",
+				"You can also get values by using array notation.",
+				"<blockquote>var currentColor = localStorage['bgcolor'];<br>var currentFont = localStorage['font'];</blockquote>",
+				"<hr>",
+				"Add a click mouse event to the load button and load the background color value into the background color textbox with the key <em>background-color</em>."
+			],
+      "challengeSeed": [
+				"<h1>local web storage</h1>",
+				"",
+				"<div>",
+				"  Saved background color:",
+				"  <input id='background-color-text'>",
+				"</div>",
+				"",
+				"<button id='load-button'>Load</button>"
+      ],
+			"tests": [
+				{
+					"text": "There should be a local storage item with a key name of background-color from the last lesson.",
+					"testString": "assert(code.match(/=\\s*?localStorage\\[[\"|']background-color[\"|']\\]|=\\s*?localStorage\\.getItem\\([\"|']background-color[\"|'],/gi), 'message: Get a value from a local storage item with the key background-color.');"
+				}
+			],
+			"solutions": [],
+			"hints": [],
+			"releasedOn": "Oct 1, 2018",
+			"challengeType": 0
+		},
+		{
+			"id": "b28f7c70c74ca5e4c5e3f231",
+			"title": "Other Storage Methods",
+			"description": [
+				"The full API for Storage can be found <a href='http://brickhousecodecamp.org/docs/javascript/developer.mozilla.org/en-US/docs/Web/API/Storage.html' target='_blank'> here </a>.",
+				"These methods include removeItem (for removing a single item by key) and clear (for removing all items).",
+				"For example:",
+				"The following removes an item from local storage.",
+				"<blockquote>localStorage.removeItem('bgcolor');</blockquote>",
+				"<hr>",
+				"Add a click mouse event to the remove button and remove the background color item with the key <em>background-color</em>."
+			],
+      "challengeSeed": [
+				"<h1>local web storage</h1>",
+				"",
+				"<button id='remove-button'>Remove</button>"
+      ],
+			"tests": [
+				{
+					"text": "When clicking remove the local storage item with a key name of background-color should be removed from local storage.",
+					"testString": "assert(code.match(/localStorage\\.removeItem\\([\"|']background-color[\"|']/gi), 'message: Remove the local storage item with the key background-color.');"
+				}
+			],
+			"solutions": [],
+			"hints": [],
+			"releasedOn": "Oct 1, 2018",
+			"challengeType": 0
+		}
+	]
+}

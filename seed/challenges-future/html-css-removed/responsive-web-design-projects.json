@@ -1,0 +1,35 @@
+{
+	"name": "Applied Responsive Web Design Projects with Tests",
+	"order": 9,
+	"time": "150 hours",
+	"helpRoom": "Help",
+	"challenges": [
+	  {
+		"id": "b5e6c5702253317885744024",
+		"title": "Build a Pre Designed Page (blog)",
+		"description": [
+		  "Build this pre designed page.",
+		  "The page must match <strong>pixel for pixel</strong> as close as possible.",
+		  "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+		  "This page must be responsive and have 2 distinct layouts at sizes 1200px and 960px wide.",
+		  "<strong>1200px wide</strong> <a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/blog/blog-1200.png\" target=\"_blank\"><div><strong>click</strong> to view full size image.</div><img src=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/blog/blog-1200.png\" style=\"width:500px;\"></a>",
+		  "<strong>960px wide</strong> <a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/blog/blog-960.png\" target=\"_blank\"><div><strong>click</strong> to view full size image.</div><img src=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/blog/blog-960.png\" style=\"width:500px;\"></a>",
+		  "For all the assets need to build this site <a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/blog\" target=\"_blank\">click here</a>.",
+		  "The font used is sans-serif.",
+		  "The categories side bar must be a unordered list of &lt;a&gt; tags and highlight when hovering.",
+		  "The highlighted text must be &lt;a&gr; tags and underline when hovering.",
+		  "Remember to use the Research-Ask method if you get stuck."
+		],
+		"releasedOn": "March 7, 2018",
+		"challengeSeed": [
+		  "cDIfODs"
+		],
+		"tests": [],
+		"type": "zipline",
+		"isRequired": true,
+		"challengeType": 3,
+		"translations": {}
+	  }
+	]
+  }
+  

@@ -1,0 +1,38 @@
+{
+	"name": "Visual Studio Code",
+	"order": 2,
+	"time": "1 hours",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+			"id": "7dfbc650dc8ae3530c9e5ae3",
+			"title": "Introduction to Visual Studio Code",
+			"description": [
+				[
+					"",
+					"",
+					"It is recommended that you use Visual Studio Code for your project editor for all future projects.",
+					""
+				],
+				[
+					"",
+					"",
+					"Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux and macOS.",
+					""
+				],
+				[
+					"",
+					"",
+					"Please read the Getting Started guide starting with the tips and tricks section.",
+					"http://brickhousecodecamp.org/docs/vscode/code.visualstudio.com/docs/getstarted/tips-and-tricks.html"
+				]
+			],
+			"releasedOn": "November 1, 2018",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": false,
+			"challengeType": 7
+		}
+	]
+}

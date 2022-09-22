@@ -1,0 +1,70 @@
+{
+	"name": "How to Read Documentation",
+	"order": 1,
+	"time": "15 minutes",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+			"id": "57e5a190ae2549e2d8927356",
+			"title": "Coding and Documentation",
+			"description": [
+				[
+					"",
+					"",
+					"All aspects of coding are documented. This documentation is sometimes called <em>docs</em>, <em>specifications</em>, or <em>specs</em>.",
+					""
+				],
+				[
+					"",
+					"",
+					"This documentation is like a dictionary.  You can look up a word and find the meaning along with an example.",
+					""
+				],
+				[
+					"",
+					"",
+					"Coding requires <strong>a lot</strong> of documentation.",
+					""
+				],
+				[
+					"",
+					"",
+					"You must know where to find official documentation for each aspect. We will show you as we introduce each technology.",
+					""
+				],
+				[
+					"",
+					"",
+					"You must go to the docs often to clarify your understanding.",
+					""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7
+		},
+		{
+			"id": "982ac020ae2db33a535efc66",
+			"title": "Example of Documentation",
+			"description": [
+				[
+					"",
+					"",
+					"Here is an example of a doc that defines the heading elements of HTML.<p><a href='http://brickhousecodecamp.org/docs/html/developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements.html' target='_blank'>Click here</a>.</p>",
+					""
+				],
+				[
+					"",
+					"",
+					"This is only an example and you do not need to understand the topic just yet.",
+					""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7
+		}
+	]
+}

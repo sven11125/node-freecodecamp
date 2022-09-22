@@ -1,0 +1,62 @@
+{
+	"name": "Google Search",
+	"order": 3,
+	"time": "15 minutes",
+	"helpRoom": "Help",
+	"challenges": [
+	{
+		"id": "81f8c090afb3cb1494e8c965",
+		"title": "Google Search",
+		"description": [
+			[
+				"",
+				"",
+				"A coder does a lot of searching on Google or googling.",
+				""
+			],
+			[
+				"",
+				"",
+				"You will need to become an expert at searching the web.",
+				""
+			]
+		],
+		"challengeSeed": [],
+		"tests": [],
+		"type": "Waypoint",
+		"challengeType": 7
+		},
+		{
+		"id": "d947d390afb39b3347a0950c",
+		"title": "Video: How to Use Google",
+		"description": [
+			[
+				"",
+				"",
+				"Watch this video: <a href='https://www.youtube.com/watch?v=a0oa3Qiz5tw' target='_blank'>How to Use Google Search</a>",
+				"#"
+			]
+		],
+		"challengeSeed": [],
+		"tests": [],
+		"type": "Waypoint",
+		"challengeType": 7
+		},
+		{
+		"id": "f01b7c20afb3f3fd08c5f703",
+		"title": "Video: How To Google Like A Pro",
+		"description": [
+			[
+				"",
+				"",
+				"Watch this video: <a href='https://www.youtube.com/watch?v=R0DQfwc72PM' target='_blank'>How To Google Like A Pro</a>",
+				"#"
+			]
+		],
+		"challengeSeed": [],
+		"tests": [],
+		"type": "Waypoint",
+		"challengeType": 7
+		}
+	]
+}

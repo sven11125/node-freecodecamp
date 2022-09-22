@@ -1,0 +1,117 @@
+{
+	"name": "Introduction to CSS",
+	"order": 2,
+	"time": "5 minutes",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+			"id": "597d77903675177232517ab2",
+			"title": "Introduction to CSS",
+			"description": [
+				[
+					"",
+					"",
+					"Cascading Style Sheets (CSS) tell the browser how to display the text and other content that you write in HTML.<br><br>Note that CSS is case-sensitive so be careful with your capitalization.",
+					""
+				],
+				[
+					"",
+					"",
+					"CSS allows you to control:<br><ul><li>color</li><li>fonts</li><li>positioning</li><li>spacing</li><li>sizing</li><li>decorations</li><li>transitions</li></ul>",
+					""
+				],
+				[
+					"",
+					"",
+					"There are three main ways to apply CSS styling.<br><br>You can apply inline styles directly to HTML elements with the <code>style</code> attribute.<br><br>You can place CSS rules within <code>style</code> tags in an HTML document.<br><br>You can also write CSS rules in an external style sheet file, then reference that file in the HTML document.",
+					""
+				],
+				[
+					"",
+					"",
+					"You apply these CSS styles or rules by targeting some part of your HTML.<br><br>A CSS selector is used to do this targeting.",
+					""
+				],
+				[
+					"",
+					"",
+					"The style or rule is a defined property followed by a value.",
+					""
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false,
+			"translations": {}
+		},
+		{
+			"id": "8805bf60e753d130b19e1184",
+			"title": "Documentation for CSS",
+			"description": [
+				[
+					"",
+					"",
+					"You will need documentation for CSS.",
+					""
+				],
+				[
+					"",
+					"",
+					"The best documentation for CSS is found on the Mozilla Developer Network (MDN). You can find the MDN docs <a href='http://brickhousecodecamp.org/docs/css/developer.mozilla.org/en-US/docs/Web/CSS/Reference.html' target='_blank'>here (developer.mozilla.org CSS)</a>",
+					""
+				],
+				[
+					"",
+					"",
+					"You need to get very familiar with this site.",
+					""
+				],
+				[
+					"",
+					"",
+					"Try it out. Go to the CSS docs and look for the definition of the <b>background-color</b> property.",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false
+		},
+		{
+			"id": "c9761120e753df9ce3be49b5",
+			"title": "** Read CSS The Definitive Guide 1 through 20",
+			"description": [
+				[
+					"",
+					"",
+					"It is recommended that you read the chapters 1 through 20 of the book:<br><br> <em>CSS The Definitive Guide</em><br><br> by Eric Meyer",
+					""
+				],
+				[
+					"",
+					"",
+					"Please commit to reading chapters 1 through 20 before you reach the Beginning Javascript lessons.",
+					"#"
+				],
+				[
+					"",
+					"",
+					"This book should be your primary focus. However, secondarily we recommend<br><br> <em>CSS Secrets</em> by Lea Verou",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": true
+		}
+	]
+}

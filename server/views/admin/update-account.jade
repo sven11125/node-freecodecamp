@@ -1,0 +1,34 @@
+extends ../layout
+block content
+    include ../partials/ajaxFlashMessage
+    .row.text-center
+        h2 Update account information:
+            .button-spacer
+        .col-sm-6.col-sm-offset-3
+            form(method='POST', action='/bhcca/update-account')
+                input(type='hidden', name='_csrf', value=_csrf)
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='email', name='email', id='email', placeholder='Account Email', autofocus=true, required)
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='email', name='newEmail', id='new-email', placeholder='New Email')
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='text', name='username', id='username', placeholder='New Username')
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='text', name='name', id='name', placeholder='New Name')
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='text', name='location', id='location', placeholder='New Location')
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='password', name='password', id='password', placeholder='New Password')
+                .form-group
+                    input.input-lg.form-control.success-clear-value(type='password', name='confirmPassword', id='confirmpassword', placeholder='Confirm New Password')
+                .button-spacer
+                button#magic-btn.btn.btn-primary.btn-lg.btn-block(type='submit')
+                    span Update Account
+                .button-spacer
+                .button-spacer
+                .button-spacer
+                .button-spacer
+                .button-spacer
+                .button-spacer
+                a.btn.btn-primary.btn-lg.btn-block(href='/bhcca')
+                    span Admin Home

@@ -1,0 +1,117 @@
+{
+	"name": "Introduction to CSS",
+	"order": 2,
+	"time": "5 minutes",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+			"id": "597d77903675177232517ab2",
+			"title": "Introduction to CSS",
+			"description": [
+				[
+					"",
+					"",
+					"You will now be learning CSS, the language for styling the web.",
+					""
+				],
+				[
+					"",
+					"",
+					"CSS (Cascading Style Sheets) is a language used to format and style HTML.",
+					""
+				],
+				[
+					"",
+					"",
+					"CSS like most all programming languages is <b>case-sensitive</b>",
+					""
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false,
+			"translations": {}
+		},
+		{
+			"id": "a4846400b1ef2daf8c3c1e31",
+			"title": "Documentation for CSS",
+			"description": [
+				[
+					"",
+					"",
+					"You will need documentation for CSS.",
+					""
+				],
+				[
+					"",
+					"",
+					"The best documentation for CSS is found on the Mozilla Developer Network (MDN). <div>You can add the word MDN to any search to find the document on the MDN.</div>",
+					""
+				],
+				[
+					"",
+					"",
+					"Try it out. Use this search on Google:<br><br>background-color mdn",
+					"#"
+				],
+				[
+					"",
+					"",
+					"The official specification for CSS is found at the W3C website. <div>These docs have all the information about CSS but are generally harder to read than the MDN.</div>",
+					""
+				],
+				[
+					"",
+					"",
+					"Checkout the W3C website by searching for: <div>w3c css</div>",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false
+		},
+		{
+			"id": "a3836ec0b1ef552b9fcb6059",
+			"title": "** Read CSS The Definitive Guide 1 through 20",
+			"description": [
+				[
+					"",
+					"",
+					"It is recommended that you read the chapters 1 through 20 of the book:<br><br> <em>CSS The Definitive Guide</em><br><br> by Eric Meyer",
+					""
+				],
+				[
+					"",
+					"",
+					"You may find a free pdf or html version of the book online.<br><br>You can search Google for a pdf version of the book by including the words 'pdf'.",
+					""
+				],
+				[
+					"",
+					"",
+					"Please commit to reading chapters 1 through 20 before you reach the Javascript lessons.",
+					"#"
+				],
+				[
+					"",
+					"",
+					"This book should be your primary focus. However, secondarily we recommend<br><br> <em>CSS Secrets</em> by Lea Verou",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false
+		}
+	]
+}

@@ -1,0 +1,39 @@
+extends ../layout
+block content
+	.container
+		if flashMessage
+			.row
+				.col-sm-6.col-sm-offset-3.flashMessage.negative-30
+					#flash-board.alert.alert-success.fade.in()
+						button.close(type='button', data-dismiss='alert')
+							span.ion-close-circled#flash-close
+						#flash-content #{flashMessage}
+                      
+
+		.row
+			.text-center
+				h2 Sign up:
+				.button-spacer
+			.col-sm-6.col-sm-offset-3
+				form(method='POST', action='/signup')
+					input(type='hidden', name='_csrf', value=_csrf)
+					.form-group
+						input.input-lg.form-control.success-clear-value(type='email', name='email', id='email', value='#{email ? email : ""}', placeholder='Email', autofocus=true, required)
+					.form-group
+						input.input-lg.form-control.success-clear-value(type='text', name='name', id='name', value='#{name ? name : ""}', placeholder='Name', required)
+					if settings.hasLocation
+						.form-group
+							input.input-lg.form-control.success-clear-value(type='text', name='location', id='location', value='#{location ? location : ""}', placeholder='Location')
+					.form-group
+						input.input-lg.form-control.success-clear-value(type='password', name='password', id='password', value='#{password ? password : ""}', placeholder='Password', required)
+					.form-group
+						input.input-lg.form-control.success-clear-value(type='password', name='confirmPassword', id='confirmPassword', value='#{confirmPassword ? confirmPassword : ""}', placeholder='Confirm Password', required)
+					.button-spacer
+						button#magic-btn.btn.btn-primary.btn-lg.btn-block(type='submit')
+							span Sign up
+
+		.row
+			.text-center
+				h3 Or
+				h2
+					a(href='/signin', style='font-weight:normal;font-size:inherit') Sign In here 

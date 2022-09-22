@@ -1,0 +1,235 @@
+{
+	"name": "Advanced Web Development Projects",
+	"order": 2,
+	"time": "120 hours",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+		  "id": "4bb40e50fe4565f96cc7b608",
+		  "title": "** Commit to not solve other students problems - Advanced Web",
+		  "description": [
+			[
+			  "",
+			  "",
+			  "Computer programming requires excellent problem solving skills.<br><br>Working through problems with the help of documentation is a daily activity for all programmers.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "When students give help it should only be to point out where in the documentation, books or other materials where they can learn about a concept.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "Students should never give away a solution to a problem or share code that completes a problem.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "If a student is still unable to solve a problem, please, refer them to the tutor.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "If you and the other student(s) have finished and passed off the project or challenge feel free to discuss, share techniques and source code.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "However, <strong>please</strong> do not discuss within earshot of other students that have not passed off to that point.",
+			  ""
+			],
+			[
+			  "",
+			  "",
+			  "By clicking below you commit to <strong>not</strong> solve other students problems, share code or give away answers.",
+			  "#"
+			]
+		  ],
+		  "releasedOn": "May 10, 2018",
+		  "challengeSeed": [],
+		  "tests": [],
+		  "type": "Waypoint",
+		  "challengeType": 7,
+		  "isRequired": true
+		},
+		{
+			"id": "0e749670f18bfbc0ce1ab47f",
+			"title": "User Management Page with Templates",
+			"description": [
+				"Build the page as defined in the project definition.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-03-templates/user-management-03-templates.html' target='_blank' class='btn btn-primary'>Click here</a> to see the project definition.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-03-templates/user-management-03-templates.png' target='_blank'>Click here</a> to view the full size image.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-03-templates/user-management-03-templates.png' target='_blank'><img src='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-03-templates/user-management-03-templates.png' style='width:500px;'></a>",
+				"Remember to use the Research-Ask method if you get stuck."
+			],
+			"releasedOn": "November 26, 2018",
+			"challengeSeed": [
+				"ColjKR0"
+			],
+			"tests": [],
+			"type": "zipline",
+			"isRequired": true,
+			"challengeType": 3
+		},
+		{
+			"id": "19bcc570f18befafb884866b",
+			"title": "User Management Page with Templates Source Code Review",
+			"description": [
+				[
+					"",
+					"",
+					"Confirm that you have that you have completed and submitted the User Management Page with Templates.",
+					"#"
+				],
+				[
+					"",
+					"",
+					"Please review the professional source code and compare it to your own.<br><br><a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/review/user-management-03-templates-19bcc570f18befafb884866b/' target='_blank' class='btn btn-primary'>Click here</a> to view the professional source code.",
+					""
+				],
+				[
+					"",
+					"",
+					"Confirm that you have reviewed the professional source code.",
+					"#"
+				]
+			],
+			"releasedOn": "November 26, 2018",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": true,
+			"challengeType": 7
+		},
+		{
+			"id": "efd58d40fc85274deed8d559",
+			"title": "User Management Page with Router",
+			"description": [
+				"Build the page as defined in the project definition.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-04-router/user-management-04-router.html' target='_blank' class='btn btn-primary'>Click here</a> to see the project definition.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-04-router/user-management-04-router.png' target='_blank'>Click here</a> to view the full size image.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-04-router/user-management-04-router.png' target='_blank'><img src='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-04-router/user-management-04-router.png' style='width:500px;'></a>",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-04-router/user-management-04-router.mp4' target='_blank'>Click here</a> to watch a video of the interactive features of the project.",
+				"Remember to use the Research-Ask method if you get stuck."
+			],
+			"releasedOn": "November 26, 2018",
+			"challengeSeed": [
+				"nB3WiFG"
+			],
+			"tests": [],
+			"type": "zipline",
+			"isRequired": true,
+			"challengeType": 3
+		},
+		{
+			"id": "f07cc9c0fc85a7361dd682d0",
+			"title": "User Management Page with Router Source Code Review",
+			"description": [
+				[
+					"",
+					"",
+					"Confirm that you have that you have completed and submitted the User User Management Page with Router.",
+					"#"
+				],
+				[
+					"",
+					"",
+					"Please review the professional source code and compare it to your own.<br><br><a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/review/user-management-04-router-f07cc9c0fc85a7361dd682d0/' target='_blank' class='btn btn-primary'>Click here</a> to view the professional source code.",
+					""
+				],
+				[
+					"",
+					"",
+					"Confirm that you have reviewed the professional source code.",
+					"#"
+				]
+			],
+			"releasedOn": "November 26, 2018",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": true,
+			"challengeType": 7
+		},
+		{
+			"id": "a5649440fcc17faeab614b31",
+			"title": "User Management Page with Bookmarkable",
+			"description": [
+				"Build the page as defined in the project definition.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-05-bookmarkable/user-management-05-bookmarkable.html' target='_blank' class='btn btn-primary'>Click here</a> to see the project definition.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-05-bookmarkable/user-management-05-bookmarkable.png' target='_blank'>Click here</a> to view the full size image.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-05-bookmarkable/user-management-05-bookmarkable.png' target='_blank'><img src='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/user-management-05-bookmarkable/user-management-05-bookmarkable.png' style='width:500px;'></a>",
+				"Remember to use the Research-Ask method if you get stuck."
+			],
+			"releasedOn": "November 26, 2018",
+			"challengeSeed": [
+				"rTThlV8"
+			],
+			"tests": [],
+			"type": "zipline",
+			"isRequired": true,
+			"challengeType": 3
+		},
+		{
+			"id": "a6171b60fcc191344e40b886",
+			"title": "User Management Page with Bookmarkable Source Code Review",
+			"description": [
+				[
+					"",
+					"",
+					"Confirm that you have that you have completed and submitted the User Management Page with Bookmarkable.",
+					"#"
+				],
+				[
+					"",
+					"",
+					"Please review the professional source code and compare it to your own.<br><br><a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/review/user-management-05-bookmarkable-a6171b60fcc191344e40b886/' target='_blank' class='btn btn-primary'>Click here</a> to view the professional source code.",
+					""
+				],
+				[
+					"",
+					"",
+					"Confirm that you have reviewed the professional source code.",
+					"#"
+				]
+			],
+			"releasedOn": "November 26, 2018",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": true,
+			"challengeType": 7
+		},
+		{
+			"id": "36a8b4d0fda447acb4971b9d",
+			"title": "Bluesky Website",
+			"description": [
+				"Build the page as defined in the project definition.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/bluesky-01-website/bluesky-01-website.html' target='_blank' class='btn btn-primary'>Click here</a> to see the project definition.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/bluesky-01-website/bluesky-01-website-index.png' target='_blank'>Click here</a> to view a full size image of the home page.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/bluesky-01-website/bluesky-01-website-index.png' target='_blank'><img src='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/bluesky-01-website/bluesky-01-website-index.png' style='width:500px;'></a>",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/bluesky-01-website/bluesky-01-website-properties.png' target='_blank'>Click here</a> to view the properties page.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/bluesky-01-website/bluesky-01-website-property.png' target='_blank'>Click here</a> to view the property page.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/bluesky-01-website/bluesky-01-website-contact.png' target='_blank'>Click here</a> to view the contact page.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/bluesky-01-website/bluesky-01-website-index.mp4' target='_blank'>Click here</a> to watch a video of the interactive features of the project.",
+				"<a href='http://brickhousecodecamp.org/educationMaterials/workbenchProjects/phase-ii/bluesky-01-website' target='_blank'>Click here</a> for the assets needed to build this project.",
+				"The font used for this project is montserrat. The font is in the project assets.",
+				"Remember to use the Research-Ask method if you get stuck."
+			],
+			"releasedOn": "November 26, 2018",
+			"challengeSeed": [
+				"aK85wdt"
+			],
+			"tests": [],
+			"type": "zipline",
+			"isRequired": true,
+			"challengeType": 3
+		}
+	]
+}

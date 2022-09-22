@@ -1,0 +1,84 @@
+{
+	"name": "Beginning HTML and CSS Projects",
+	"order": 8,
+	"time": "150 hours",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+			"id": "587d78af367417b2b2512b02",
+			"title": "Introduction to JS Bin",
+			"description": [
+				[
+					"",
+					"",
+					"For these projects we will use a browser-based code editor called JS Bin.<br><br> Click the \"Open link in new tab\" button below to open JS Bin.<br><br> If you don't have an account please register.",
+					"http://jsbin.brickhousecodecamp.org/register"
+				],
+				[
+					"",
+					"",
+					"Once you are logged in to JS Bin you will see a few buttons at the top in the center of the screen.<br><br> Turn on the HTML, CSS, and Output panes by clicking their buttons.",
+					""
+				],
+				[
+					"",
+					"",
+					"In the HTML pane create an <code>h1</code> element with the text \"Hello World\".<br><br> Notice that you can drag the edges of the panes around to resize them.",
+					""
+				],
+				[
+					"",
+					"",
+					"In JS Bin your work will be automatically saved every few minutes, however, you can save your work immediately by using ctrl+s or choosing \"Save snapshot\" from the File menu in the top left hand corner.<br><br>  You can get a link to your page by clicking the Share drop down in the upper left hand corner.",
+					""
+				],
+				[
+					"",
+					"",
+					"You can see all the saved bins you have created by clicking My Bins from the File menu. Take some time to explore the features of JS Bin by clicking around.  You can also adjust editor settings by clicking on the Account button in the top right hand corner.",
+					""
+				],
+				[
+					"",
+					"",
+					"If you get stuck, please use the methodology: <h3>Research-Ask</h3>",
+					""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": false,
+			"challengeType": 7
+		},
+		{
+			"id": "de857480fc88b5297c923ba4",
+			"title": "Testing Projects in JS Bin",
+			"description": [
+				[
+					"",
+					"",
+					"Beginning HTML and CSS Projects with Tests requires linking to two JavaScript files for testing.",
+					""
+				],
+				[
+					"",
+					"",
+					"You will need to link to these scripts in each project by choosing CodeCamp Test Suite from the Library button at the top left of JS Bin.",
+					""
+				],
+				[
+					"",
+					"",
+					"This will create two links to the test suite for use with the project.",
+					""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"isRequired": false,
+			"challengeType": 7
+		}
+	]
+}

@@ -1,0 +1,104 @@
+{
+	"name": "Introduction to HTML",
+	"order": 0,
+	"time": "5 minutes",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+			"id": "13696380af9209326bb14361",
+			"title": "Introduction to HTML",
+			"description": [
+				[
+					"",
+					"",
+					"You will now be learning HTML, the language of the web.",
+					""
+				],
+				[
+					"",
+					"",
+					"HTML is a language for making documents.<br><br> It uses special symbols (codes) for describing a document.<br><br> For example, there are different codes to indicate a heading, a paragraph, or a list.",
+					""
+				],
+				[
+					"",
+					"",
+					"HTML is a 'Markup Language' which uses annotations to give information to text.<br><br>It also gives structure to the 'User Interface' or what you see on a web page.",
+					""
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false
+		},
+		{
+			"id": "1d15b570af95cd1413d3bd58",
+			"title": "Documentation for HTML",
+			"description": [
+				[
+					"",
+					"",
+					"You will need documentation for HTML.",
+					""
+				],
+				[
+					"",
+					"",
+					"The best documentation for HTML is found on the Mozilla Developer Network (MDN).<br><br> You can find the MDN docs<br><br> <a href='http://brickhousecodecamp.org/docs/html/developer.mozilla.org/en-US/docs/Web/HTML.html' target='_blank'>here (developer.mozilla.org HTML)</a>",
+					""
+				],
+				[
+					"",
+					"",
+					"You will want to use the References part of the website.<br><br> You need to get very familiar with this site.",
+					""
+				],
+				[
+					"",
+					"",
+					"Try it out. Go to the HMTL docs and look for the definition of the <b>p</b> element.",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false
+		},
+		{
+			"id": "03bd33c0afb6ad4da8fc4fed",
+			"title": "** Read Beginning HTML And CSS 1 through 6",
+			"description": [
+				[
+					"",
+					"",
+					"It is recommended that you read the chapters 1 through 6 of the book:<br><br> <em>Beginning HTML And CSS</em><br><br> by Rob Larsen",
+					""
+				],
+				[
+					"",
+					"",
+					"A different book will be recommended for CSS.",
+					""
+				],
+				[
+					"",
+					"",
+					"Please commit to reading chapters 1 through 6 before you reach the CSS lessons.",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": true
+		}
+	]
+}

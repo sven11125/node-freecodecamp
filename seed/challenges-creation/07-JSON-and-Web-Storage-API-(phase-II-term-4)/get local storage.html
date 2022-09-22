@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<head></head>
+<html>
+
+<body>
+
+
+	<div style='background:#cdcdcd;padding:20px;margin-top:20px;display:flex;'>
+		<div style='width:600px;margin-right:20px;'>
+
+
+			<!-- ********      LESSON      ******** -->
+
+
+			<h1>Storage.getItem()</h1>
+
+  <p>The
+	  <code>getItem()</code> method of the
+	  <a href='http://brickhousecodecamp.org/docs/javascript/developer.mozilla.org/en-US/docs/Web/API/Storage/getItem.html' title='The Storage interface of the Web Storage API provides access to the session storage or local storage for a particular domain, allowing you to for example add, modify or delete stored data items.'>
+		  <code>Storage</code>
+	  </a> interface, when passed a key name, will return that key's value.
+  </p>
+  
+  <blockquote>var <em>aValue</em> = <em>storage</em>.getItem(<em>keyName</em>);
+  </blockquote>
+  
+  <h2 id='Example'>Example</h2>
+  
+  <p>The following gets two data items inside local storage.</p>
+  
+  <blockquote>
+		var currentColor = localStorage.getItem('bgcolor');
+		var currentFont = localStorage.getItem('font');
+	  </blockquote>
+  
+	  
+  
+  <p>You can also get values by using array notation.</p>
+  
+  <blockquote>
+		var currentColor = localStorage['bgcolor'];
+		var currentFont = localStorage['font'];
+  </blockquote>
+  
+	  <hr>
+  
+	  Add a click mouse event to the load button and load the background color value into the background color textbox with the key <em>background-color</em>.
+
+
+
+
+			<!-- ********      END LESSON      ******** -->
+
+
+		</div>
+		<div>
+
+
+			<!-- ********      CHALLENGE SEED      ******** -->
+			<textarea style='width:600px;height:400px;display:block;'>
+
+
+
+<h1>local web storage</h1>
+
+<div>
+  Saved background color:
+<input id='background-color-text'>
+</div>
+
+<button id='load-button'>Load</button>
+
+
+
+			</textarea>
+			<!-- ********      END CHALLENGE SEED      ******** -->
+
+
+		</div>
+	</div>
+
+	<div style='background:#acacac;padding:20px;margin-top:20px;display:flex;'>
+
+		<div style='width:600px;margin-right:20px;'>
+			<button id='run-tests'>Run Tests</button>
+			<div id='test-results' style='margin-top:20px;'></div>
+		</div>
+
+
+		<!-- ********      SOLUTION      ******** -->
+		<textarea id='solution-text' style='width:600px;height:400px;display:block;'>
+
+
+
+<h1>local web storage</h1>
+
+<div>
+  Saved background color:
+<input id='background-color-text'>
+</div>
+
+<button id='load-button'>Load</button>
+
+<script>
+
+document.getElementById('load-button').addEventListener('click', function(){
+  
+  document.getElementById('background-color-text').value = localStorage['background-color'];
+  
+});
+
+</script>
+
+
+
+		</textarea>
+		<!-- ********      END SOLUTION      ******** -->
+
+
+	</div>
+
+	<script src='http://brickhousecodecamp.org/educationMaterials/frameworks/js/chai.js'></script>
+	<script>
+
+		document.getElementById('run-tests').addEventListener('click', function () {
+
+			var solution = document.getElementById('solution-text').value;
+
+			var assert = chai.assert;
+			var code = solution;
+			var result = 'Test Passed';
+
+			try {
+
+				
+				// <!-- ********      ASSERTS      ******** -->
+				// When clicking load your code should load the value from the local storage item with a key name of background-color.
+				assert(code.match(/=\s*?localStorage\[["|']background-color["|']\]|=\s*?localStorage\.getItem\(["|']background-color["|'],/gi), 'message: Get a value from a local storage item with the key background-color.');
+
+			
+				// <!-- ********      END ASSERTS      ******** -->
+
+			} catch (error) {
+
+				result = error.message;
+			}
+
+			document.getElementById('test-results').textContent = result;
+		});
+
+
+	</script>
+
+</body>
+
+</html>

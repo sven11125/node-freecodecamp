@@ -1,0 +1,29 @@
+<h2>Web Storage API</h2>
+
+<p>The
+	<a href="http://brickhousecodecamp.org/docs/javascript/developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API.html">
+		<strong>Web Storage API</strong>
+	</a>
+	provides mechanisms by which browsers can store key/value pairs, in a much more intuitive fashion than using cookies.</p>
+
+<p>The two mechanisms within Web Storage are as follows:</p>
+
+<ul>
+	<li>
+		<code>sessionStorage</code> maintains a separate storage area for each given origin that's available for the duration of the page session (as long
+		as the browser is open, including page reloads and restores)</li>
+	<li>
+		<code>localStorage</code> does the same thing, but persists even when the browser is closed and reopened.</li>
+</ul>
+
+
+<p>The Web Storage API extends the
+		<code>Window</code>
+	 object with two properties —
+	 <code>Window.sessionStorage</code> and
+	 <code>Window.localStorage</code>.  These two objects implement the
+	 <code>Storage</code> interface.  There is also a
+	 <code>Window.onstorage</code> event handler that fires when a storage area changes.</p>
+
+<p>There are also alias' for these objects globally as sessionStorage and localStorage.</p>
+<p>For these challenges we will focus only on localStorage.</p>

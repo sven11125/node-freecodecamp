@@ -1,0 +1,282 @@
+{
+	"name": "Try Coding",
+	"order": 0,
+	"time": "15 Minutes",
+	"helpRoom": "Help",
+	"challenges": [	  
+    {
+      "id": "bd7123c8c441eddfaeb5bdef",
+      "title": "Say Hello World",
+      "description": [
+        "Welcome. Let's try some coding lessons.",
+        "Do you see the code in your text editor to the right that says <code>&#60;h1&#62;Hello&#60;/h1&#62;</code>? That's HTML.",
+        "Here you will change some text between the angle brackets.",
+				"To pass each lesson you need to change the code and then click the <b>Run tests</b> button below.",
+				"When you pass the test you will see a big checkbox with a submit button, click the <b>submit button</b>  to continue.",
+        "<hr>",
+        "To pass this lesson, change your text to say \"Hello World\"."
+      ],
+      "challengeSeed": [
+        "<h1>Hello</h1>"
+      ],
+      "tests": [
+        {
+          "text": "Your <code>h1</code> element should have the text \"Hello World\".",
+          "testString": "assert.isTrue((/hello(\\s)+world/gi).test($('h1').text()), 'Your <code>h1</code> element should have the text \"Hello World\".');"
+        }
+      ],
+      "type": "waypoint",
+      "challengeType": 0
+    },
+    {
+      "id": "bad87fee1348bd9aedf0887a",
+      "title": "Headline with an h2 Element",
+      "description": [
+      	"HTML uses words with angle brackets like <code>&#60;h2&#62; and &#60;/h2&#62;</code> which are called elements.",
+      	"You will now make a new heading with an <code>h2</code> element. Like this <code>&#60;h2&#62;Hello&#60;/h2&#62;</code>",
+        "The <code>h1</code> is for a main heading, while the <code>h2</code> is for subheadings.",
+				"Remember to pass each lesson you need to change the code and then click the <b>Run tests</b> button below.",
+				"and when you pass the test you will see a big checkbox with a submit button, click the <b>submit button</b>  to continue.",
+        "<hr>",
+        "Below the \"Hello World\" line make an <code>h2</code> with text that says \"CatPhotoApp\""
+      ],
+      "challengeSeed": [
+        "<h1>Hello World</h1>"
+      ],
+      "tests": [
+        "assert(($(\"h2\").length > 0), 'message: Create an <code>h2</code> element.');",
+        "assert(code.match(/<\\/h2>/g) && code.match(/<\\/h2>/g).length === code.match(/<h2>/g).length, 'message: Make sure your <code>h2</code> element has a closing tag.');",
+        "assert.isTrue((/cat(\\s)?photo(\\s)?app/gi).test($(\"h2\").text()), 'message: Your <code>h2</code> element should have the text \"CatPhotoApp\".');",
+        "assert.isTrue((/hello(\\s)+world/gi).test($(\"h1\").text()), 'message: Your <code>h1</code> element should have the text \"Hello World\".');"
+      ],
+      "type": "waypoint",
+      "challengeType": 0
+    },
+    {
+      "id": "bad87fee1348bd9aedf08801",
+      "title": "Create a Paragraph Element",
+      "description": [
+        "<code>p</code> elements are the preferred element for paragraph text. P is short for \"paragraph\".",
+        "You can create a <code>p</code> element like this:",
+        "<code>&#60;p&#62;I'm a p tag!&#60;/p&#62;</code>",
+        "<hr>",
+        "Create a <code>p</code> element below your <code>h2</code> element, and give it the text \"Hello Paragraph\"."
+      ],
+      "challengeSeed": [
+        "<h1>Hello World</h1>",
+        "<h2>CatPhotoApp</h2>"
+      ],
+      "tests": [
+        "assert(($(\"p\").length > 0), 'message: Create a <code>p</code> element.');",
+        "assert.isTrue((/hello(\\s)+paragraph/gi).test($(\"p\").text()), 'message: Your <code>p</code> element should have the text \"Hello Paragraph\".');",
+        "assert(code.match(/<\\/p>/g) && code.match(/<\\/p>/g).length === code.match(/<p/g).length, 'message: Make sure your <code>p</code> element has a closing tag.');"
+      ],
+      "type": "waypoint",
+      "challengeType": 0
+    },
+    {
+      "id": "bad87fee1348bd9aedf08803",
+      "title": "Change the Color of Text",
+      "description": [
+        "Now let's change the color of some of our text using CSS.",
+        "CSS is a language used to style HTML elements.",
+        "We can change text color by using the word <code>color</code> followed by a colon : and then a color. Like this:",
+        "color: blue;",
+        "<hr>",
+        "Change your <code>h2</code> element's style so that its text color is red."
+      ],
+      "challengeSeed": [
+        "<h2>CatPhotoApp</h2>",
+        "",
+        "<style>",
+        "",
+				"  h2 {",
+				"    background-color:yellow;",
+				"    color: blue;",
+				"  }",
+				"",
+				"</style>"
+      ],
+      "tests": [
+        "assert($(\"h2\").css(\"color\") === \"rgb(255, 0, 0)\", 'message: Your <code>h2</code> element should be red.');"
+      ],
+      "type": "waypoint",
+      "challengeType": 0
+    },
+    {
+      "id": "587d781a367417b2b2512ab7",
+      "title": "Make Text Bold",
+      "description": [
+        "To make text bold, you can use the <code>strong</code> element.",
+        "Like this, <code>&#60;strong&#62;Hello&#60;/strong&#62;</code>.",
+        "<hr>",
+        "Wrap the words \"Larry Page\" inside a <code>strong</code> element."
+      ],
+      "challengeSeed": [
+				"<p>",
+				"Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.",
+				"</p>"
+      ],
+      "tests": [
+        "assert($('strong').length == 1, 'message: Your code should add one <code>strong</code> element to the markup.');",
+        "assert($('p').children('strong').length == 1, 'message: The <code>strong</code> element should be inside the <code>p</code> tag.');",
+        "assert($('strong').text().match(/Larry Page/gi), 'message: The <code>strong</code> element should wrap around the words \"Larry Page\".');"
+      ],
+      "solutions": [],
+      "hints": [],
+      "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
+      "challengeType": 0
+    },
+    {
+      "id": "587d781b367417b2b2512abc",
+      "title": "Change the Background Color",
+      "description": [
+        "You can add a background color to text that you want to emphasize.",
+        "You can change background color by using the word <code>background-color</code> followed by a colon : and then a color. Like this:",
+        "background-color: green;",
+        "<hr>",
+        "Change the <code>background-color</code> of the <code>h4</code> element to yellow."
+      ],
+      "challengeSeed": [
+        "<style>",
+        "  h4 {",
+        "    text-align: center;",
+        "    background-color: gray;",
+        "  }",
+				"</style>",
+				"",
+        "<h4>Alphabet</h4>",
+        "<hr>",
+        "<em><p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p></em>"
+      ],
+      "tests": [
+        "assert($(\"h4\").css(\"background-color\") === \"rgb(255, 255, 0)\", 'message: Your <code>h2</code> element should be yellow.');"
+      ],
+      "solutions": [],
+      "hints": [],
+      "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
+      "challengeType": 0
+    },
+    {
+      "id": "cf1111c1c11feddfaeb3bdef",
+      "title": "Add Two Numbers with JavaScript",
+      "description": [
+        "JavaScript is a programming language that is used on the web.",
+        "Let's try to add two numbers.",
+        "JavaScript uses the <code>+</code> symbol as addition operation when placed between two numbers.",
+        "<strong>Example</strong>",
+        "<blockquote>5 + 10</blockquote>",
+        "<hr>",
+        "Change the <code>0</code> so that sum will equal <code>20</code>."
+      ],
+      "challengeSeed": [
+        "var sum = 10 + 0;",
+        ""
+      ],
+      "tail": [
+        "(function(z){return 'sum = '+z;})(sum);"
+      ],
+      "solutions": [
+        "var sum = 10 + 10;"
+      ],
+      "tests": [
+        "assert(sum === 20, 'message: <code>sum</code> should equal <code>20</code>');",
+        "assert(/\\+/.test(code), 'message: Use the <code>+</code> operator');"
+      ],
+      "type": "waypoint",
+      "challengeType": 1
+    }, 
+    {
+      "id": "cf1111c1c11feddfaeb4bdef",
+      "title": "Subtract One Number from Another",
+      "description": [
+        "We can also subtract one number from another.",
+        "JavaScript uses the <code>-</code> symbol for subtraction.",
+        "",
+        "<strong>Example</strong>",
+        "<blockquote>12 - 6</blockquote>",
+        "",
+        "<hr>",
+        "Change the <code>0</code> so the difference is <code>12</code>."
+      ],
+      "challengeSeed": [
+        "var difference = 45 - 0;",
+        "",
+        ""
+      ],
+      "tail": [
+        "(function(z){return 'difference = '+z;})(difference);"
+      ],
+      "solutions": [
+        "var difference = 45 - 33;"
+      ],
+      "tests": [
+        "assert(difference === 12, 'message: Make the variable <code>difference</code> equal 12.');",
+        "assert(/\\-/.test(code), 'message: Use the <code>-</code> operator');"
+      ],
+      "type": "waypoint",
+      "challengeType": 1
+    },
+    {
+      "id": "56533eb9ac21ba0edf2244af",
+      "title": "Addition with Variables",
+      "description": [
+        "Variables let us store a number for later use.",
+				"<code>var a = 5;</code>",
+        "We can then use the variable instead of the number. Like this:",
+				"<code>a + a</code>",
+        "<hr>",
+        "Instead of adding <code>a</code> to <code>4</code>, add <code>a</code> to <code>b</code>."
+      ],
+      "releasedOn": "January 1, 2016",
+      "challengeSeed": [
+        "var a = 17;",
+				"var b = 3;",
+				"",
+        "var c = a + 4;"
+      ],
+      "tail": [
+        "(function(z){return 'c = '+z;})(c);"
+      ],
+      "solutions": [
+        "var c = a + b;"
+      ],
+      "tests": [
+        "assert(c === 20, 'message: Add <code>a</code> and <code>b</code>.');",
+        "assert(/\\+/.test(code), 'message: Use the <code>+</code> operator');"
+      ],
+      "type": "waypoint",
+      "challengeType": 1
+		},		
+		{
+			"id": "16c7f5b0b3a11318eca11803",
+			"title": "Thanks for Coding!",
+			"description": [
+				[
+				"",
+				"",
+				"Congratulations and thanks for coding!<br><br>We hope you enjoyed the experience and are ready for more.<br><br>Click the <b>Go to my next step</b> button to continue.",
+				""
+				],
+				[
+				"",
+				"",
+				"This was just a small taste of what its like to work with code.",
+				""
+				],
+				[
+				"",
+				"",
+				"Now it's time to dive in and become a coder.<br><br> <a href='http://learn.bridgescodecamp.org' class='btn btn-danger btn-lg'>Click Here to Start Learning</a><br><br><br>",
+				""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7
+			}
+	]
+}

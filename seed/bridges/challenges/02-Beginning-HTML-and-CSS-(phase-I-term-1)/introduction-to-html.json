@@ -1,0 +1,134 @@
+{
+	"name": "Introduction to HTML",
+	"order": 0,
+	"time": "5 minutes",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+			"id": "13696380af9209326bb14361",
+			"title": "Introduction to Basic HTML",
+			"description": [
+				[
+					"",
+					"",
+					"You will now be learning HTML, the language of the web.",
+					""
+				],
+				[
+					"",
+					"",
+					"HTML is a language for making documents.<br><br> It uses special symbols (codes) for describing a document.<br><br> For example, there are different codes to indicate a heading, a paragraph, or a list.",
+					""
+				],
+				[
+					"",
+					"",
+					"HTML is a 'Markup Language' which uses annotations to give information to text.<br><br>It also gives structure to the 'User Interface' or what you see on a web page.",
+					""
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false
+		},
+		{
+			"id": "1d15b570af95cd1413d3bd58",
+			"title": "Documentation for HTML",
+			"description": [
+				[
+					"",
+					"",
+					"You will need documentation for HTML.",
+					""
+				],
+				[
+					"",
+					"",
+					"A great place to look for word definitions is in Wikipedia.<div> You can quickly look up the words HTML, Markup Language and other terms.</div>",
+					""
+				],
+				[
+					"",
+					"",
+					"Always look up words or terms you do not know. <div>Such as 'markup language' or 'hypertext'.</div>",
+					""
+				],
+				[
+					"",
+					"",
+					"Usually wikipedia will be at the top of the search results on Google for most terms. <div>However you can always add the word wiki or wikipedia to any search.</div>",
+					""
+				],
+				[
+					"",
+					"",
+					"Try it out. Use this search on Google: <div>html wikipedia</div>",
+					"#"
+				],
+				[
+					"",
+					"",
+					"The best documentation for HTML is found on the Mozilla Developer Network (MDN). <div>You can add the word MDN to any search to find the document on the MDN.</div>",
+					""
+				],
+				[
+					"",
+					"",
+					"Try it out. Use this search on Google: <div>p mdn</div>",
+					"#"
+				],
+				[
+					"",
+					"",
+					"The official specification for HTML is found at the W3C website. <div>These docs have all the information about HTML but are generally harder to read than the MDN.</div>",
+					""
+				],
+				[
+					"",
+					"",
+					"Checkout the W3C website by searching for: <div>w3c html 5</div>",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false
+		},
+		{
+			"id": "03bd33c0afb6ad4da8fc4fed",
+			"title": "** Read Beginning HTML And CSS 1 through 6",
+			"description": [
+				[
+					"",
+					"",
+					"It is recommended that you read the chapters 1 through 6 of the book:<br><br> <em>Beginning HTML And CSS</em><br><br> by Rob Larsen",
+					""
+				],
+				[
+					"",
+					"",
+					"You may find a free pdf or html version of the book online. <div>You can search Google for a pdf version of the book by including the words 'pdf'.</div>",
+					""
+				],
+				[
+					"",
+					"",
+					"Please commit to reading chapters 1 through 6 before you reach the CSS lessons.",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": true
+		}
+	]
+}

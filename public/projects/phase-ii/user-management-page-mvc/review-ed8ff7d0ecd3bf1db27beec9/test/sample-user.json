@@ -1,0 +1,11 @@
+{
+	"userId": 3,
+	"name": "John Doe",
+	"email": "johndoe@gmail.com",
+	"gender": "male",
+	"age": 23,
+	"role": "contributor",
+	"verified": true,
+	"createdDate": "2018-07-10T13:50:30.633Z",
+	"updatedDate": "2018-12-10T13:50:30.633Z"
+}

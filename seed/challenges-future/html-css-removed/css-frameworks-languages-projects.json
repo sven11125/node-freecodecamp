@@ -1,0 +1,200 @@
+{
+  "name": "CSS Frameworks and Languages Projects",
+  "order": 3,
+  "time": "150 hours",
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "bd7158d8c442eddfaeb5bd13",
+      "title": "Build a Random Quote Machine",
+      "description": [
+         "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Random Quote Machine tests.",
+         "<strong>You must pass the tests below</strong>",
+         "<strong>Technology Stack:</strong> You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project.  You should use a frontend framework (like React for example) because this section is about learning frontend frameworks.  Additional technologies not listed above are not recommended and using them is at your own risk.  We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!",
+         "<strong>Content:</strong> 1. I can see a wrapper element with a corresponding id=\"quote-box\".",
+         "<strong>Content:</strong> 2. Within #quote-box, I can see an element with corresponding id=\"text\".",
+         "<strong>Content:</strong> 3. Within #quote-box, I can see an element with corresponding id=\"author\".",
+         "<strong>Content:</strong> 4. Within #quote-box, I can see a clickable element with corresponding id=\"new-quote\".",
+         "<strong>Content:</strong> 5. Within #quote-box, I can see a clickable <code>a</code> element with corresponding id=\"tweet-quote\".",
+         "<strong>Content:</strong> 6. On first load, my quote machine displays a random quote in the element with id=\"text\".",
+         "<strong>Content:</strong> 7. On first load, my quote machine displays the quote author in the element with id=\"author\".",
+         "<strong>Content:</strong> 8. When the #new-quote button is clicked, my quote machine should fetch a new quote and display it in the #text element.",
+         "<strong>Content:</strong> 9. My quote machine should fetch the quote author when the #new-quote button is clicked and display it in the #author element.",
+         "<strong>Content:</strong> 10. I can tweet the current quote by clicking on the #tweet-quote <code>a</code> element. This <code>a</code> element should include the \"twitter.com/intent/tweet\" path in the href attribute to tweet the current quote.",
+         "<strong>Layout:</strong> 11. The #quote-box wrapper element should be horizontally centered. Please run tests with browser zoom level at 100% and page maximized.",
+         "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "image": "A9mEKIF",
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {
+        "es": {
+          "title": "Crea una máquina de frases aleatorias",
+          "description": []
+        },
+        "ru": {
+          "title": "Создайте генератор случайных цитат",
+          "description": []
+        }
+      }
+    },
+    {
+      "id": "bd7157d8c242eddfaeb5bd13",
+      "title": "Build a Markdown Previewer",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Markdown Previewer tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project.  You should use a frontend framework (like React for example) because this section is about learning frontend frameworks.  Additional technologies not listed above are not recommended and using them is at your own risk.  We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!",
+        "<strong>Content:</strong> 1. I can see a <code>textarea</code> element with corresponding id=\"editor\".",
+        "<strong>Content:</strong> 2. I can see an element with corresponding id=\"preview\".",
+        "<strong>Content:</strong> 3. When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.",
+        "<strong>Content:</strong> 4. When I enter GitHub flavored markdown into the #editor element, the text is rendered as HTML in the #preview element as I type (Hint: You need not parse Markdown yourself - you can import the Marked library for this: /cdn/vendor/marked.js).",
+        "<strong>Content:</strong> 5. When my markdown previewer first loads, the default text in the #editor field should contain valid markdown that represents at least one of each of the following elements: a header (H1 size), a sub header (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.",
+        "<strong>Content:</strong> 6. When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element.",
+        "<strong>Content:</strong> 7. OPTIONAL BONUS (you do not need to make this test pass): When I click a link rendered by my markdown previewer, the link is opened up in a new tab (HINT: read the Marked.js docs for this one!)",
+        "<strong>Content:</strong> 8. OPTIONAL BONUS (you do not need to make this test pass): My markdown previewer interprets carriage returns and renders them as <code>br</code> (line break) elements.",
+        "Remember to use the Research-Ask method if you get stuck."
+     ],
+      "releasedOn": "January 10, 2017",
+      "image": "FFDvuCP",
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {
+        "es": {
+          "title": "Crea una caja de recetas",
+          "description": []
+        },
+        "ru": {
+          "title": "Создайте хранилище рецептов",
+          "description": []
+        }
+      }
+    },
+    {
+      "id": "587d7dbc367417b2b2512bae",
+      "title": "Build a Drum Machine",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Drum Machine tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project.  You should use a frontend framework (like React for example) because this section is about learning frontend frameworks.  Additional technologies not listed above are not recommended and using them is at your own risk.  We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!",
+        "<strong>Content:</strong> 1. I should be able to see an outer container with a corresponding id=\"drum-machine\" that contains all other elements.",
+        "<strong>Content:</strong> 2. Within #drum-machine I can see an element with corresponding id=\"display\".",
+        "<strong>Content:</strong> 3. Within #drum-machine I can see 9 clickable \"drum pad\" elements, each with a class name of \"drum-pad\", a unique id that describes the audio clip the drum pad will be set up to trigger, and an inner text that corresponds to one of the following keys on the keyboard: Q, W, E, A, S, D, Z, X, C. The drum pads MUST be in this order.",
+        "<strong>Content:</strong> 4. Within each .drum-pad, there should be an HTML5 <code>audio</code> element which has a src attribute pointing to an audio clip, a class name of \"clip\", and an id corresponding to the inner text of its parent .drum-pad (e.g. id=\"Q\", id=\"W\", id=\"E\" etc.).",
+        "<strong>Content:</strong> 5. When I click on a .drum-pad element, the audio clip contained in its child <code>audio</code> element should be triggered.",
+        "<strong>Content:</strong> 6. When I press the trigger key associated with each .drum-pad, the audio clip contained in its child <code>audio</code> element should be triggered (e.g. pressing the Q key should trigger the drum pad which contains the string \"Q\", pressing the W key should trigger the drum pad which contains the string \"W\", etc.).",
+        "<strong>Content:</strong> 7. When a .drum-pad is triggered, a string describing the associated audio clip is displayed as the inner text of the #display element (each string must be unique).",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "February 17, 2017",
+      "image": "OkeFgKL",
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {
+        "es": {
+          "title": "Crea un Juego de la vida",
+          "description": []
+        },
+        "ru": {
+          "title": "Создайте игру \"Жизнь\"",
+          "description": []
+        }
+      }
+    },
+    {
+      "id": "bd7158d8c442eddfaeb5bd17",
+      "title": "Build a JavaScript Calculator",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Calculator tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project.  You should use a frontend framework (like React for example) because this section is about learning frontend frameworks.  Additional technologies not listed above are not recommended and using them is at your own risk.  We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!",
+        "<strong>Content:</strong> 1. My calculator should contain a clickable element containing an \"=\" (equal sign) with a corresponding id=\"equals\".",
+        "<strong>Content:</strong> 2. My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: id=\"zero\", id=\"one\", id=\"two\", id=\"three\", id=\"four\", id=\"five\", id=\"six\", id=\"seven\", id=\"eight\", and id=\"nine\".",
+        "<strong>Content:</strong> 3. My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: id=\"add\", id=\"subtract\", id=\"multiply\", id=\"divide\".",
+        "<strong>Content:</strong> 4. My calculator should contain a clickable element containing a \".\" (decimal point) symbol with a corresponding id=\"decimal\".",
+        "<strong>Content:</strong> 5. My calculator should contain a clickable element with an id=\"clear\".",
+        "<strong>Content:</strong> 6. My calculator should contain an element to display values with a corresponding id=\"display\".",
+        "<strong>Content:</strong> 7. At any time, pressing the clear button clears the input and output values, and returns the calculator to its initialized state; 0 should be shown in the element with the id of \"display\".",
+        "<strong>Content:</strong> 8. As I input numbers, I should be able to see my input in the element with the id of \"display\".",
+        "<strong>Content:</strong> 9. In any order, I should be able to add, subtract, multiply and divide a chain of numbers of any length, and when I hit \"=\", the correct result should be shown in the element with the id of \"display\".",
+        "<strong>Content:</strong> 10. When inputting numbers, my calculator should not allow a number to begin with multiple zeros.",
+        "<strong>Content:</strong> 11. When the decimal element is clicked, a \".\" should append to the currently displayed value; two \".\" in one number should not be accepted.",
+        "<strong>Content:</strong> 12. I should be able to perform any operation (+, -, *, /) on numbers containing decimal points.",
+        "<strong>Content:</strong> 13. If 2 or more operators are entered consecutively, the operation performed should be the last operator entered.",
+        "<strong>Content:</strong> 14. Pressing an operator immediately following \"=\" should start a new calculation that operates on the result of the previous evaluation.",
+        "<strong>Content:</strong> 15. My calculator should have several decimal places of precision when it comes to rounding (note that there is no exact standard, but you should be able to handle calculations like \"2 / 7\" with reasonable precision to at least 4 decimal places).",
+        "Remember to use the Research-Ask method if you get stuck.",
+        "<strong>Note On Calculator Logic:</strong> It should be noted that there are two main schools of thought on calculator input logic: <dfn>immediate execution logic</dfn> and <dfn>formula logic</dfn>. Our example utilizes formula logic and observes order of operation precedence, immediate execution does not. Either is acceptable, but please note that depending on which you choose, your calculator may yield different results than ours for certain equations (see below example). As long as your math can be verified by another production calculator, please do not consider this a bug.",
+        "<strong>EXAMPLE:</strong> <code>3 + 5 x 6 - 2 / 4 =</code><br><ul><li><strong>Immediate Execution Logic:</strong> <code>11.5</code></li><li><strong>Formula/Expression Logic:</strong> <code>32.5</code></li></ul>"
+      ],
+      "image": "xlAXPjX",
+      "tests": [],
+      "type": "zipline",
+      "challengeType": 3,
+      "isRequired": true,
+      "translations": {
+        "es": {
+          "title": "Crea una calculadora JavaScript",
+          "description": []
+        }
+      }
+    },
+    {
+      "id": "bd7158d8c442eddfaeb5bd0f",
+      "title": "Build a Pomodoro Clock",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Pomodoro Clock tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project.  You should use a frontend framework (like React for example) because this section is about learning frontend frameworks.  Additional technologies not listed above are not recommended and using them is at your own risk.  We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!",
+        "<strong>Content:</strong> 1. I can see an element with id=\"break-label\" that contains a string (e.g. \u201CBreak Length\u201D).",
+        "<strong>Content:</strong> 2. I can see an element with id=\"session-label\" that contains a string (e.g. \"Session Length\u201D).",
+        "<strong>Content:</strong> 3. I can see two clickable elements with corresponding IDs: id=\"break-decrement\" and id=\"session-decrement\".",
+        "<strong>Content:</strong> 4. I can see two clickable elements with corresponding IDs: id=\"break-increment\" and id=\"session-increment\".",
+        "<strong>Content:</strong> 5. I can see an element, with corresponding id=\"break-length\", which by default (on load) displays a value of 5.",
+        "<strong>Content:</strong> 6. I can see an element, with corresponding id=\"session-length\", which by default displays a value of 25.",
+        "<strong>Content:</strong> 7. I can see an element, with corresponding id=\"timer-label\", that contains a string indicating a session is initialized (e.g. \"Session\").",
+        "<strong>Content:</strong> 8. I can see an element with corresponding id=\"time-left\".  NOTE: Paused or running, the value in this field should always be displayed in mm:ss format (i.e. 25:00).",
+        "<strong>Content:</strong> 9. I can see a clickable element with corresponding id=\"start_stop\".",
+        "<strong>Content:</strong> 10. I can see a clickable element with corresponding id=\"reset\".",
+        "<strong>Timer:</strong> 1. When I click the element with the id of \"reset\", any running timer should be stopped, the value within id=\"break-length\" should return to 5, the value within id=\"session-length\" should return to 25, and the element with id=\"time-left\" should reset to it&#39s default state.",
+        "<strong>Timer:</strong> 2. When I click the element with the id of \"break-decrement\", the value within id=\"break-length\" decrements by a value of 1, and I can see the updated value.",
+        "<strong>Timer:</strong> 3. When I click the element with the id of \"break-increment\", the value within id=\"break-length\" increments by a value of 1, and I can see the updated value.",
+        "<strong>Timer:</strong> 4. When I click the element with the id of \"session-decrement\", the value within id=\"session-length\" decrements by a value of 1, and I can see the updated value.",
+        "<strong>Timer:</strong> 5. When I click the element with the id of \"session-increment\", the value within id=\"session-length\" increments by a value of 1, and I can see the updated value.",
+        "<strong>Timer:</strong> 6. I should not be able to set a session or break length to <= 0.",
+        "<strong>Timer:</strong> 7. I should not be able to set a session or break length to > 60.",
+        "<strong>Timer:</strong> 8. When I first click the element with id=\"start_stop\", the timer should begin running from the value currently displayed in id=\"session-length\", even if the value has been incremented or decremented from the original value of 25.",
+        "<strong>Timer:</strong> 9. If the timer is running, the element with the id of \"time-left\" should display the remaining time in mm:ss format (decrementing by a value of 1 and updating the display every 1000ms).",
+        "<strong>Timer:</strong> 10. If the timer is running and I click the element with id=\"start_stop\", the countdown should pause.",
+        "<strong>Timer:</strong> 11. If the timer is paused and I click the element with id=\"start_stop\", the countdown should resume running from the point at which it was paused.",
+        "<strong>Timer:</strong> 12. When a session countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of \"timer-label\" should display a string indicating a break has begun.",
+        "<strong>Timer:</strong> 13. When a session countdown reaches zero (NOTE: timer MUST reach 00:00), a new break countdown should begin, counting down from the value currently displayed in the id=\"break-length\" element.",
+        "<strong>Timer:</strong> 14. When a break countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of \"timer-label\" should display a string indicating a session has begun.",
+        "<strong>Timer:</strong> 15. When a break countdown reaches zero (NOTE: timer MUST reach 00:00), a new session countdown should begin, counting down from the value currently displayed in the id=\"session-length\" element.",
+        "<strong>Audio:</strong> 1. When a countdown reaches zero (NOTE: timer MUST reach 00:00), a sound indicating that time is up should play. This should utilize an HTML5 <audio> tag and have a corresponding id=\"beep\".",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "image": "u5RTBt4",
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {
+        "es": {
+          "title": "Crea un reloj pomodoro",
+          "description": []
+        },
+        "ru": {
+          "title": "Создайте таймер Pomodoro",
+          "description": []
+        }
+      }
+    }
+  ]
+}

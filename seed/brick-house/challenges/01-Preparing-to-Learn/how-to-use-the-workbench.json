@@ -1,0 +1,288 @@
+{
+	"name": "How to Use the WorkBench",
+	"order": 0,
+	"time": "5 minutes",
+	"helpRoom": "Help",
+	"challenges": [
+		{
+			"id": "d5885fe0ae19898d7697c25a",
+			"title": "Welcome to the WorkBench",
+			"description": [
+				[
+					"",
+					"",
+					"Welcome to the WorkBench.<br><br> Click the 'Go to my next step' button to continue.",
+					""
+				],
+				[
+					"",
+					"",
+					"Great! This is how you will complete several lessons, by reading and clicking next.<br><br> Please <strong>always</strong> read and understand every word before continuing.",
+					""
+				],
+				[
+					"",
+					"",
+					"You will keep going through each step until you get to the 'Finish lesson' button.<br><br> When you click 'Finish lesson' the next lesson will start.",
+					""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7
+		},
+		{
+			"id": "6309a7c0ae1a95ce9c509dfc",
+			"title": "The Lesson Types",
+			"description": [
+				[
+					"",
+					"",
+					"There are different types of lessons.<br><br>Some are steps to read like these.<br><br> Some are videos to watch.<br><br> Others are coding lessons where you will write code.",
+					""
+				],
+				[
+					"",
+					"",
+					"Also, there will be commitments to make along the way and finally projects to complete.",
+					""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7
+		},
+		{
+			"id": "4795ff50ae1c47efb504550a",
+			"title": "** Commit to Read and Understand",
+			"description": [
+				[
+					"",
+					"",
+					"It is critical that you <b>do not skim</b> the reading.",
+					""
+				],
+				[
+					"",
+					"",
+					"Commit to read and understand <strong>all</strong> the words in each lesson.<br><br>Click the 'Confirm' button below to unlock the next step.",
+					"#"
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7
+		},
+		{
+			"id": "0dd08700ae1b4fab354e4087",
+			"title": "The WorkBench Windows",
+			"description": [
+				[
+					"",
+					"",
+					"There are 4 different windows that are used for the WorkBench.",
+					""
+				],
+				[
+					"",
+					"",
+					"They are:<br><br> 'All Lessons'<br> 'Lesson'<br> 'Code Editor'<br> 'Preview'",
+					""
+				],
+				[
+					"",
+					"",
+					"Not all lessons use all of the windows.<br><br>You can show and hide these windows by clicking on their buttons on the upper right in the Navigation Bar.",
+					""
+				],
+				[
+					"",
+					"",
+					"We suggest you hide the 'All Lessons' window so that you have more room to read and write code.",
+					""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7
+		},
+		{
+			"id": "2779ef60ae1ca7fde09568e8",
+			"title": "Coding Lessons",
+			"description": [
+				[
+					"",
+					"",
+					"On a coding lesson you must complete the requested objective.<br><br>You complete the task by clicking the 'Run Tests' button found in the 'Lesson' window.",
+					""
+				],
+				[
+					"",
+					"",
+					"When you click 'Run Tests' a series of tests will run to check if you have met the coding objective.",
+					""
+				],
+				[
+					"",
+					"",
+					"If you have not passed all the tests then <strong>read</strong> the error messages to get information on what to correct.<br><br>Keep correcting and testing your work.<br><br>Re-read the lesson to get more help.",
+					""
+				],
+				[
+					"",
+					"",
+					"Some lessons can be very challenging, and you may get stuck.<br><br>We will teach you later how to get help.<br><br>If necessary you can use the 'All Lessons' window to skip to the next lesson.",
+					""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7
+		},
+		{
+			"id": "601eff60ae24b17e8ff07443",
+			"title": "Try to Code",
+			"description": [
+				"<em>Here you will get a lesson on coding.</em>",
+				"In this lesson you will just change some text in the code editor.",
+				"<hr>",
+				"<em>Here you will get the coding objective.</em>",
+				"Change the text between the &lt;h2&gt; and &lt;/h2&gt; to say <code>\"Hello World\"</code>."
+			],
+			"challengeSeed": [
+				"<!-- This is the 'Code Editor' window. You can type here. -->",
+				"<h1>Look at the window to the right. The text will look large and dark. That is the 'Preview' window.</h1>",
+				"<h2>change this text</h2>"
+			],
+			"tests": [
+				{
+					"text": "The <code>h2</code> should have the text \"Hello World\".",
+					"testString": "assert.isTrue((/hello(\\s)+world/gi).test($('h2').text()), 'The <code>h2</code> should have the text \"Hello World\".');"
+				}
+			],
+			"type": "waypoint",
+			"challengeType": 0
+		},
+		{
+			"id": "8d463170af8cef02e9ed909c",
+			"title": "** Commit to Learn in Order",
+			"description": [
+				[
+					"",
+					"",
+					"Just like in math, many parts of coding build upon previous knowledge.",
+					""
+				],
+				[
+					"",
+					"",
+					"These lessons have been created in a specific order to help your knowledge build.",
+					""
+				],
+				[
+					"",
+					"",
+					"Commit do the lessons in order and not jump ahead.",
+					"#"
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7
+		},
+		{
+			"id": "1b4358c0b13de5e46bbe090b",
+			"title": "Coding Tips",
+			"description": [
+				[
+					"",
+					"",
+					"Coding is very specific.<br><br>Here are some tips for when you get stuck.",
+					""
+				],
+				[
+					"",
+					"",
+					"<b>All</b> coding is case sensitive.<br><br>This means that hello and Hello are two different words.<br><br>Always check your casing.",
+					""
+				],
+				[
+					"",
+					"",
+					"Read the error messages.<br><br>Error messages are sometimes very literal.<br><br>Read and re-read all the available error messages.",
+					""
+				],
+				[
+					"",
+					"",
+					"Coding uses symbols.<br><br>count = 1; is different from count = 1,<br><br>Keep an eye out for symbol typos.",
+					""
+				],
+				[
+					"",
+					"",
+					"Delete some work and check again.<br><br>When fixing a problem, make the problem smaller by temporarily deleting other unrelated code.",
+					""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7
+		},
+		{
+			"id": "b8d8f400b048c5cf0e8ce72d",
+			"title": "** Commit to not solve other students problems - WorkBench",
+			"description": [
+			  [
+				"",
+				"",
+				"Computer programming requires excellent problem solving skills.",
+				""
+			  ],
+			  [
+				"",
+				"",
+				"When students give help it should only be to point out where in the documentation, books or other materials they can learn about a concept.",
+				""
+			  ],
+			  [
+				"",
+				"",
+				"Students should never give away a solution to a problem or share code that completes a problem.",
+				""
+			  ],
+			  [
+				"",
+				"",
+				"If you and the other student have finished the project or lesson than feel free to discuss, share techniques and share code.",
+				""
+			  ],
+			  [
+				"",
+				"",
+				"However, <strong>please</strong> do not discuss within earshot of other students that have not finished.",
+				""
+			  ],
+			  [
+				"",
+				"",
+				"Commit to <strong>not</strong> solve other students problems, share code or give away answers.",
+				"#"
+			  ]
+			],
+			"releasedOn": "May 10, 2018",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": true
+		  }
+	]
+}

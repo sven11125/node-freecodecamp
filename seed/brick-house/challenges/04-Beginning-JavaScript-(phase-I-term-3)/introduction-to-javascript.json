@@ -1,0 +1,92 @@
+{
+	"name": "Introduction to JavaScript",
+	"time": "5 minutes",
+	"order": 0,
+	"helpRoom": "HelpJavaScript",
+	"challenges": [
+		{
+			"id": "bd6123c9c441eddfaeb4bdef",
+			"title": "Introduction to JavaScript",
+			"description": [
+				[
+					"",
+					"",
+					"JavaScript (JS) is a high-level programming language that all modern web browsers support. It is also one of the core technologies of the web, along with HTML and CSS that you may have learned previously. This section will cover basic programming concepts in JavaScript, which range from variables and arithemtic to objects and loops.",
+					""
+				]
+			],
+			"challengeSeed": [],
+			"tests": [],
+			"type": "waypoint",
+			"challengeType": 7,
+			"isRequired": false,
+			"translations": {}
+		},
+		{
+			"id": "91736300181ca12fd8ac6372",
+			"title": "Documentation for JavaScript",
+			"description": [
+				[
+					"",
+					"",
+					"You will need documentation for JavaScript.",
+					""
+				],
+				[
+					"",
+					"",
+					"The best documentation for JavaScript is found on the Mozilla Developer Network (MDN).<br><br> You can find the MDN docs<br><br> <a href='http://brickhousecodecamp.org/docs/Javascript/developer.mozilla.org/en-US/docs/Web/JavaScript/Reference.html' target='_blank'>here (developer.mozilla.org JavaScript)</a>",
+					""
+				],
+				[
+					"",
+					"",
+					"You need to get very familiar with this site.",
+					""
+				],
+				[
+					"",
+					"",
+					"Try it out. Go to the JavaScript docs and look for the definition of Array.",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": false
+		},
+		{
+			"id": "91c92420181cabff74e62d59",
+			"title": "** Read Professional JavaScript 1 through 7",
+			"description": [
+				[
+					"",
+					"",
+					"It is recommended that you read the chapters 1 through 7, and 24 of the book:<br><br> <em>Professional JavaScript for Web Developers</em><br><br> by Nicholas C. Zakas",
+					""
+				],
+				[
+					"",
+					"",
+					"Please commit to reading chapters 1 through 7, and 24 before you reach the Advanced JavaScript lessons.",
+					"#"
+				],
+				[
+					"",
+					"",
+					"This book should be your primary focus. However, secondarily we recommend<br><br> <em>Eloquent JavaScript</em> by Marijn Haverbeke",
+					"#"
+				]
+			],
+			"releasedOn": "",
+			"challengeSeed": [],
+			"tests": [],
+			"type": "Waypoint",
+			"challengeType": 7,
+			"isRequired": true
+		}
+	]
+}

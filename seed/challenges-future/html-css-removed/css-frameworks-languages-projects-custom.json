@@ -1,0 +1,76 @@
+{
+  "name": "CSS Frameworks Languages Projects",
+  "order": 3,
+  "time": "15 hours",
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "146858fbb5d0cbaa271ddd56",
+      "title": "Build a Pre Designed Page (osmo)",
+      "description": [
+        "Build this pre designed page.",
+        "The page must match <strong>pixel for pixel</strong> as close as possible.",
+        "<strong>Technology Stack:</strong> 1. Use HTML, CSS, Bootstrap 4, and Font Awesome to complete this project.",
+        "<a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/osmo/osmo.png\" target=\"_blank\"><div><strong>Click</strong> to view full size image.</div><img src=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/osmo/osmo.png\" style=\"width:500px;\"></a>",
+        "For all the assets need to build this site <a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/osmo\" target=\"_blank\">click here</a>.",
+        "The font used is sans-serif.",
+        "Buttons should be done with css NOT images.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "February 15, 2018",
+      "challengeSeed": [
+        "cDIfODs"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    },
+    {
+      "id": "536658c02622d5ea1344747c",
+      "title": "Build a Pre Designed Page (css tricks footer)",
+      "description": [
+        "Build this pre designed page.",
+        "The page must match <strong>pixel for pixel</strong> as close as possible.",
+        "<strong>Technology Stack:</strong> 1. Use HTML, CSS and Bootstrap 4 to complete this project.",
+        "<a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/css-tricks-footer/css-tricks-footer.png\" target=\"_blank\"><div><strong>click</strong> to view full size image.</div><img src=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/css-tricks-footer/css-tricks-footer.png\" style=\"width:500px;\"></a>",
+        "This site uses only 1 asset that is an sprite map. <a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/css-tricks-footer/sprite-map.png\" target=\"_blank\">click here</a>.",
+        "The font used is Whitney SSm A, Whitney SSm B which can be used by linking to <a href=\"http://brickhousecodecamp.org/educationMaterials/frameworks/fonts/whitney/fonts.css\" target=\"_blank\">this css here</a>.",
+        "The font for the links at the bottom of the page are Whitney Cond A, Whitney Cond B.",
+        "Form use and hover colors and styles can be seen in <a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/css-tricks-footer/css-tricks-footer-hover.png\" target=\"_blank\">this image here</a>.",
+        "All the links at the bottom of the page, Contact through Guest Posting, must change their hover color like the About and Archives example.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "March 12, 2018",
+      "challengeSeed": [
+        "cDIfODs"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    },
+    {
+      "id": "fcdfe7502b8fcfa49b64e3bb",
+      "title": "Update a Pre Existing Page (clean footer update)",
+      "description": [
+        "Update a previously developed page. (See the facilitator to get your assigned page.)",
+        "The page must match <strong>pixel for pixel</strong> as close as possible.",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/clean-web-page-footer-update/clean-web-page-footer-update.png\" target=\"_blank\"><div><strong>Click</strong> to view full size image.</div><img src=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/clean-web-page-footer-update/clean-web-page-footer-update.png\" style=\"width:500px;\"></a>",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "March 19, 2018",
+      "challengeSeed": [
+        "wLIuOHD"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    }
+  ]
+}

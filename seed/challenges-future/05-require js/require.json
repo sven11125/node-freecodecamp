@@ -1,0 +1,35 @@
+{
+    "name": "Require JS",
+    "order": 5,
+    "time": "0 hours",
+    "helpRoom": "HelpRequire",
+    "challenges": [
+        {
+            "id": "715bb4705d127d8553cf1830",
+            "title": "Introduction to Require JS",
+            "description": [
+                [
+                    "",
+                    "",
+                    "<code>require</code> is javascripts way of importing one project into another."
+                ],
+                [
+                    "",
+                    "",
+                    "When you load a file with <code>require</code> you get back an object which contains all the exported functions and parameters from the loaded module."
+                ],
+                [
+                    "",
+                    "",
+                    "In order to better understand how this works we will be remaking a minor version of require for our own use."
+                ]
+            ],
+            "releasedOn": "",
+            "challengeSeed": [],
+            "tests": [],
+            "type": 7,
+            "isRequired": false,
+            "translations": {}
+        }
+    ]
+}

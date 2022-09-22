@@ -1,0 +1,427 @@
+{
+  "name": "Applied Responsive Web Design Projects",
+  "order": 7,
+  "time": "150 hours",
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "587d78af367417b2b2512b02",
+      "title": "Get Set for our Responsive Web Design Projects",
+      "description": [
+        [
+          "",
+          "",
+          "Our front end development projects will give you a chance to apply the front end skills you've developed up to this point. We'll use a browser-based code editor called JS Bin.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "These projects are harder. It can take several hours to complete each project.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "If you get stuck, please use the methodology: <h3>Research-Ask</h3>",
+          ""
+        ],
+        [
+          "",
+          "",
+          "For our front end project challenges, we'll use the browser-based code editor called JS Bin.<br><br> Click the \"Open link in new tab\" button below to open JS Bin.<br><br> If you don't have an account please register.",
+          "http://jsbin.brickhousecodecamp.org/login"
+        ],
+        [
+          "",
+          "",
+          "Once you are logged in on JS Bin in the HTML box, create an <code>h1</code> element with the text \"Hello World\".<br><br> You can drag the edges of the frames around to resize them.<br><br> You can also click the buttons at the top to show and hide the frames.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Your work will be automatically saved every few minutes, however, you can save your work immediately by using ctrl+s or choosing \"Save snapshot\" from the File menu in the top left hand corner.<br><br>  You can get a public link to your page by clicking the Share drop down in the upper left hand corner.",
+          ""
+        ]
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "isRequired": false,
+      "challengeType": 7,
+      "translations": {
+        "es": {
+          "title": "Prepárate para los Proyectos de Desarrollo de Interfaces",
+          "description": [
+            [
+              "/images/OAD6SJz.png",
+              "Una imagen del juego Simón, uno de nuestros proyectos de interfaz.",
+              "Nuestros proyectos de desarrollo de interfaces te darán oportunidad de aplicar las habilidades con interfaces que has desarrollado hasta este momento.  Usaremos un editor de código basado en el navegador llamado CodePen.",
+              ""
+            ],
+            [
+              "/images/WBetuBa.jpg",
+              "Un programador frustado golpeando la pantalla de su computador.",
+              "Nuestros desafíos sobre algoritmos son difíciles.  Algunos pueden requerir muchas horas para resolverse.  Podrás frustarte, pero no te rindas. Se vuelve fácil con práctica.",
+              ""
+            ],
+            [
+              "/images/p2TpOQd.jpg",
+              "Un tierno perro que salta sobre un obstáculo, pica el ojo y te apunta con su pata.",
+              "Cuando te atasques, usa la metodología Leer-Buscar-Preguntar. No te preocupes -  lo tienes resuelto.",
+              ""
+            ],
+            [
+              "/images/G1saeDt.gif",
+              "Un gif que muestra cómo crear una cuenta en Codepen.",
+              "Para nuestros desafíos de interfaces, usaremos un editor de código basado en el navegador que es muy famoso llamado Codepen. Pulsa en el botón de abajo \"Open link in new tab\" para abrir la página de registro de CodePen. Rellena el formulario y pulsa \"Sign up\". <br><div class=\"small\">Nota: Si ya tienes una cuenta de CodePen, puedes omitir este paso pulsando \"Open link in new tab\", cierra la nueva pestaña que se abre, entonces pulsa \"go to my next step\". Eliminamos nuestro botón \"skip step\" porque mucha gente solamente pulsa el botón sin realizar estos importantes pasos.</div>",
+              "https://codepen.io/accounts/signup/user/free"
+            ],
+            [
+              "/images/U4y9RJ1.gif",
+              "Un gif que muestra que puedes escribir \"hello world\" en el editor, lo cual escribirá \"hello world\" en la ventana de vista previa. También puedes mover las ventanas para cambiar su tamaño, y cambiar su orientación.",
+              "En la ventana de HTML, crea un elemento h1 con el texto \"Hola mundo\". Puedes arrastrar los bordes de las ventanas para cambiar su tamaño. También puedes pulsar el botón de \"Change View\" para cambiar la orientación de las ventanas.",
+              ""
+            ],
+            [
+              "/images/G9KFQDL.gif",
+              "Un gif que muestra el proceso de agregar Bootstrap a tu proyecto.",
+              "Pulsa el engrane en la esquina superior izquierda de la ventana de CSS, luego ve hacia abajo hasta donde dice \"Quick add\" y elige Bootstrap. Ahora dale a tu elemento h1 la clase \"text-primary\" para cambiar su color y verificar que Bootstrap está activado.",
+              ""
+            ]
+          ]
+        },
+        "pt-br": {
+          "title": "Prepare-se para nossos Projetos de Desenvolvimento Front End",
+          "description": [
+            [
+              "/images/OAD6SJz.png",
+              "A imagem de um jogo Simon, um de nossos projetos front end.",
+              "Nossos projetos de Desenvolvimento front end vão dar a você a chance de aplicar as habilidades front end que você desenvolveu até esse ponto. Nós vamos usar um editor popular chamado CodePen que funciona direto no navegador.",
+              ""
+            ],
+            [
+              "/images/WBetuBa.jpg",
+              "Um programador atravessando a tela de seu laptop com um soco em frustração.",
+              "Esses projetos são difíceis. A maioria dos campistas leva alguns dias para contruir cada projeto. Você vai ficar frustrado. Mas não desista. Isso fica mais fácil com a prática.",
+              ""
+            ],
+            [
+              "/images/p2TpOQd.jpg",
+              "Um cachorro fofo pulando sobre um obstáculo, piscando e apontando sua pata a você.",
+              "Quando ficar travado, use a metodologia Ler-Buscar-Perguntar. Não se preocupe - você consegue.",
+              ""
+            ],
+            [
+              "/images/G1saeDt.gif",
+              "Um gif mostrando com criar uma conta CodePen.",
+              "Para nossos projetos front end, usaremos um popular editor de código baseado em navegador chamado CodePen. Clique no botão \"Open link in new tab\" abaixo para abrir a página de resgistro do CodePen. Preencha o formulário e clique em \"Sign up\". <br><div class=\"small\">Nota: Se você já tem uma conta CodePen, você pode pular esse passo clicando em \"Open link in new tab\", fechando a nova aba que abrir, e clicando em \"go to my next step\". Nós removemos nosso botão \"skip step\" pois muitas pessoas iam simplesmente clicar nele repetidamente sem passar por esses passos importantes.</div>",
+              "https://codepen.io/accounts/signup/user/free"
+            ],
+            [
+              "/images/U4y9RJ1.gif",
+              "Um gif mostrando que você pode digitar \"hello world\" e será mostrado \"hello world\" na janela de visualização. Você também pode arrastar janelas para redimensioná-las e mudar a orientação das mesmas.",
+              "Na caixa do HTML, crie um elemento <code>h1</code> com o texto \"Hello World\". Você pode arrastar as bordas para redimensioná-las. Você pode também clicar no botão \"Change View\" e mudar a orientação das janelas.",
+              ""
+            ],
+            [
+              "/images/G9KFQDL.gif",
+              "Um gif mostrando como adicionar o Bootstrap à sua pen.",
+              "Clique na engrenagem no canto superior esquerdo da caixa do CSS, então role para baixo até \"Quick add\" e escolha Bootstrap. Agora adicione ao seu elemento <code>h1</code> a classe <code>text-primary</code> para mudar sua cor e provar que o Bootstrap agora está disponível.",
+              ""
+            ],
+            [
+              "/images/m0pWik2.gif",
+              "Um gif mostrando o processo de desativar o update automático da janela de visualização",
+              "Ao usar CodePen e Ajax, é uma boa idea desativar o update automático da janela de visualização para que as chamadas para as APIs não sejam feitas a todo momento. Muitas chamadas para API pode levar à bloqueios temporários e podem requerer períodos de esperar para que possam ser usadas novamente. <br> <div class=\"small\"> Para desativar o update automático da janela de visualização clique no botão \"Settings\" no topo da página, então clique na aba \"Behavior\". No final da página, desmarque \"AUTO UPDATE PREVIEW\". Agora clique em \"Run\" no topo da página para atualizar a janela de visualização e clique \"Save\".</div>",
+              ""
+            ]
+          ]
+        },
+        "ru": {
+          "title": "Приготовьтесь к разработке фронтенд проектов",
+          "description": [
+            [
+              "/images/OAD6SJz.png",
+              "Игра Саймона - один из фронтенд проектов.",
+              "Наши фронтенд проекты дадут вам шанс применить полученные к этому моменту знания по фронтенд разработке. Мы будем использовать популярный браузерный редактор кода - CodePen.",
+              ""
+            ],
+            [
+              "/images/WBetuBa.jpg",
+              "Программист от отчаяния кулаком пробивает экран своего ноутбука.",
+              "Это трудные проекты. Разработка каждого занимает у большинства кэмперов несколько дней. У вас может возникнуть чувство отчаяния. Несмотря на это не сдавайтесь. С практикой этот процесс станет проще.",
+              ""
+            ],
+            [
+              "/images/p2TpOQd.jpg",
+              "Милый пес, прыгающий через препятствие, указывает на вас лапой и подмигивает.",
+              "Если что-то не получается, воспользуйтесь Research-Ask. Не волнуйтесь - вы сможете это сделать.",
+              ""
+            ],
+            [
+              "/images/G1saeDt.gif",
+              "Гифка показывающая как зарегистрироваться на CodePen.",
+              "Для заданий по фронтенд разработке, мы будем использовать популярный браузерный редактор кода под названием CodePen. Откройте страницу регистрации на сайте CodePen, нажав на расположенную чуть ниже кнопку \"Open link in new tab\". Заполните форму и нажмите \"Sign up\". <br><div class=\"small\">Замечание: Если у вас уже есть аккаунт CodePen, то этот шаг можно пропустить: нажмите на кнопку \"Open link in new tab\", закройте появившуюся вкладку и затем кликните \"go to my next step\". Мы убрали кнопку \"skip step\", ввиду того что большинство людей просто нажимали бы ее несколько раз подряд и пропускали бы эти важные инструкции.</div>",
+              "https://codepen.io/accounts/signup/user/free"
+            ],
+            [
+              "/images/U4y9RJ1.gif",
+              "Гифка показывающая набор в редакторе заголовка с текстом \"hello world\", который затем отображается в окошке предпросмотра. А также указывающая как изменить размер окон редактора или поменять их расположение.",
+              "В окошке HTML создайте элемент h1 с текстом \"Hello World\". Ухватив края окон можно изменить их размер. А нажав на кнопку \"Change View\" поменять их расположение.",
+              ""
+            ],
+            [
+              "/images/G9KFQDL.gif",
+              "Гифка показывающая как в CodePen добавить к проекту Bootstrap.",
+              "Нажмите на звездочку в левом верхнем углу окошка CSS, найдите внизу поле \"Quick add\" и выберите в нем Bootstrap. Добавьте к элементу h1 класс \"text-primary\", чтобы изменить его цвет и удостовериться, что Bootstrap подключен.",
+              ""
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "bd7158d8c442eddfaeb5bd18",
+      "title": "Build a Tribute Page",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Tribute Page tests.",
+        "<strong>User Story:</strong> The page is a single web page that is a tribute to a person or a place.",
+        "<strong>User Story:</strong> The page contains an image of the topic.",
+        "<strong>User Story:</strong> The page contains descriptive text about the topic.",
+        "<strong>User Story:</strong> The page contains an external link that will open another browser window.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<strong>Content:</strong> 1. The page contains an element with corresponding id=\"main\", which contains all other elements.",
+        "<strong>Content:</strong> 2. The page contains an element with corresponding id=\"title\", which contains a text that describes the topic of the page.",
+        "<strong>Content:</strong> 3. The page contains a <code>div</code> element with corresponding id=\"img-div\".",
+        "<strong>Content:</strong> 4. Within the \"img-div\" element, the page contains an <code>img</code> element with a corresponding id=\"image\". ‣",
+        "<strong>Content:</strong> 5. Within the \"img-div\" element, the page contains an element with a corresponding id=\"img-caption\" that contains textual content describing the image shown in \"img-div\".",
+        "<strong>Content:</strong> 6. The page contains an element with a corresponding id=\"tribute-info\", which contains textual content describing the subject of the tribute page.",
+        "<strong>Content:</strong> 7. The page contains an <code>a</code> element with a corresponding id=\"tribute-link\", which links to an outside site that contains additional information about the subject of the tribute page.",
+        "<strong>Layout:</strong> 1. The <code>img</code> element should responsively resize, relative to the width of its parent element, without exceeding its original size.",
+        "<strong>Layout:</strong> 2. The <code>img</code> element should be centered within its parent element.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "January 1, 2016",
+      "challengeSeed": [
+        "Nk0DzQi"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {
+        "es": {
+          "title": "Construye una página Tributo",
+          "description": []
+        },
+        "pt-br": {
+          "title": "Construa uma Página Tributo",
+          "description": []
+        },
+        "ru": {
+          "title": "Создайте страницу посвященную тому что вас вдохновляет",
+          "description": []
+        }
+      }
+    },
+    {
+      "id": "587d78af367417b2b2512b03",
+      "title": "Build a Survey Form",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Tribute Page tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<strong>Content:</strong> 1. The page contains a title with id=\"title\" in <code>H1</code> sized text.",
+        "<strong>Content:</strong> 2. The page contains a short explanation with id=\"description\" in <code>P</code> sized text.",
+        "<strong>Content:</strong> 3. The page contains a <code>form</code> with id=\"survey-form\".",
+        "<strong>Content:</strong> 4. Inside the form element, I am required to enter my name in a field with id=\"name\".",
+        "<strong>Content:</strong> 5. Inside the form element, I am required to enter an email in a field with id=\"email\".",
+        "<strong>Content:</strong> 6. If I enter an email that is not formatted correctly, I will see an HTML5 validation error.",
+        "<strong>Content:</strong> 7. Inside the form, I can enter a number in a field with id=\"number\".",
+        "<strong>Content:</strong> 8. If I enter non-numbers in the number input, I will see an HTML5 validation error.",
+        "<strong>Content:</strong> 9. If I enter numbers outside the range of the number input, I will see an HTML5 validation error.",
+        "<strong>Content:</strong> 10. For the name, email, and number input fields inside the form The page contains corresponding labels that describe the purpose of each field with the following ids: id=\"name-label\", id=\"email-label\", and id=\"number-label\".",
+        "<strong>Content:</strong> 11. For the name, email, and number input fields, The page contains placeholder text that gives me a description or instructions for each field.",
+        "<strong>Content:</strong> 12. Inside the form element, I can select an option from a dropdown that has corresponding id=\"dropdown\".",
+        "<strong>Content:</strong> 13. Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.",
+        "<strong>Content:</strong> 14. Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.",
+        "<strong>Content:</strong> 15. Inside the form element, I am presented with a <code>textarea</code> at the end for additional comments.",
+        "<strong>Content:</strong> 16. Inside the form element, I am presented with a button with id=\"submit\" to submit all my inputs.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "January 15, 2017",
+      "challengeSeed": [
+        "A7Pn5zw"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    },
+    {
+      "id": "587d78af367417b2b2512b04",
+      "title": "Build a Product Landing Page",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Product Landing Page tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<strong>Content:</strong> 1. My product landing page should have a <code>header</code> element with corresponding id=\"header\".",
+        "<strong>Content:</strong> 2. I can see an image within the #header element with a corresponding id=\"header-img\". A company logo would make a good image here.",
+        "<strong>Content:</strong> 3. Within the <code>header</code> element I can see a <code>nav</code> element with corresponding id=\"nav-bar\".",
+        "<strong>Content:</strong> 4. I can see at least three clickable elements inside the nav element, each with the class \"nav-link\".",
+        "<strong>Content:</strong> 5. When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.",
+        "<strong>Content:</strong> 6. I can watch an embedded product video with id=\"video\".",
+        "<strong>Content:</strong> 7. My landing page has a <code>form</code> element with a corresponding id=\"form\".",
+        "<strong>Content:</strong> 8. Within the form, there is an <code>input</code> field with id=\"email\" where I can enter an email address.",
+        "<strong>Content:</strong> 9. The #email input field should have placeholder text to let the user know what the field is for.",
+        "<strong>Content:</strong> 10. The #email input field uses HTML5 validation to confirm that the entered text is an email address.",
+        "<strong>Content:</strong> 11. Within the form, there is a submit <code>input</code> with corresponding id=\"submit\".",
+        "<strong>Content:</strong> 12. When I click the #submit element, the email is submitted to a static page (use this mock URL: https://site.com/email-submit) that confirms the email address",
+        "<strong>Layout:</strong> 1. The navbar should always be at the top of the viewport.",
+        "<strong>Layout:</strong> 2. My product landing page should have at least one media query.",
+        "<strong>Layout:</strong> 3. My product landing page should utilize CSS flexbox at least once.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "January 15, 2017",
+      "challengeSeed": [
+        "ExCJjAT"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    },
+    {
+      "id": "587d78b0367417b2b2512b05",
+      "title": "Build a Technical Documentation Page",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Technical Documentation Page tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<strong>Content:</strong> 1. I can see a <code>main</code> element with a corresponding id=\"main-doc\", which contains the page main content (technical documentation).",
+        "<strong>Content:</strong> 2. Within the #main-doc ( <code>main</code> ) element, I can see several <code>section</code> elements, each with a class of \"main-section\". There should be a minimum of 5.",
+        "<strong>Content:</strong> 3. The first element within each .main-section should be a <code>header</code> element which contains text that describes the topic of that section.",
+        "<strong>Content:</strong> 4. Each <section> element with the class of \"main-section\" should also have an id that corresponds with the text of each <code>header</code> contained within it. Any spaces should be replaced with underscores (e.g. The <code>section</code> that contains the header \"JavaScript and Java\" should have a corresponding id=\"Javascript_and_Java\").",
+        "<strong>Content:</strong> 5. The .main-section elements should contain at least 10 <code>p</code> elements total (not each).",
+        "<strong>Content:</strong> 6. The .main-section elements should contain at least 5 <code>code</code> elements total (not each).",
+        "<strong>Content:</strong> 7. The .main-section elements should contain at least 5 <code>li</code> items total (not each).",
+        "<strong>Content:</strong> 8. I can see a <code>nav</code> element with a correspondingv id=\"navbar\".",
+        "<strong>Content:</strong> 9. The navbar element should contain one <code>header</code> element which contains text that describes the topic of the technical documentation.",
+        "<strong>Content:</strong> 10. Additionally, the navbar should contain link (<code>a</code>) elements with the class of \"nav-link\". There should be one for every element with the class \"main-section\".",
+        "<strong>Content:</strong> 11. The <code>header</code> element in the navbar must come before any link (<code>a</code>) elements in the navbar.",
+        "<strong>Content:</strong> 12. Each element with the class of \"nav-link\" should contain text that corresponds to the <code>header</code> text within each <code>section</code> (e.g. if you have a \"Hello world\" section/header, your navbar should have an element which contains the text \"Hello world\").",
+        "<strong>Content:</strong> 13. When I click on a navbar element, the page should navigate to the corresponding section of the \"main-do\" element (e.g. If I click on a \"nav-link\" element that contains the text \"Hello world\", the page navigates to a <code>section</code> element that has that id and contains the corresponding <code>header</code>.",
+        "<strong>Layout:</strong> 1. On regular sized devices (laptops, desktops), the element with id=\"navbar\" should be shown on the left side of the screen and should always be visible to the user.",
+        "<strong>Layout:</strong> 2. My Technical Documentation page should use at least one media query.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "January 15, 2017",
+      "challengeSeed": [
+        "cDIfODs"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    },
+    {
+      "id": "587d78b0367417b2b2512b06",
+      "title": "Build a Personal Portfolio Webpage",
+      "description": [
+        "Build your project on JS Bin.  Add the \"CodeCamp\" Test Suite from the libraries to access the Personal Portfolio Webpage tests.",
+        "<strong>You must pass the tests below</strong>",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<strong>Content:</strong> 1. My portfolio should have a Welcome section with an id of \"welcome-section\".",
+        "<strong>Content:</strong> 2. The welcome section should have an h1 element that contains text.",
+        "<strong>Content:</strong> 3. My portfolio should have a projects section with an id of \"projects\".",
+        "<strong>Content:</strong> 4. The projects section should contain at least one element with a class of \"project-tile\" to hold a project.",
+        "<strong>Content:</strong> 5. The projects section should contain at least one link to a project.",
+        "<strong>Content:</strong> 6. My portfolio should have a navbar with an id of \"navbar\".",
+        "<strong>Content:</strong> 7. The navbar should contain at least one link that I can click on to navigate to different sections of the page.",
+        "<strong>Content:</strong> 8. My portfolio should have a link with an id of \"profile-link\", which opens my FCC profile in a new tab.",
+        "<strong>Layout:</strong> 1. My portfolio page should use at least one media query.",
+        "<strong>Layout:</strong> 2. The height of the welcome section should be equal to the height of the viewport.",
+        "<strong>Layout:</strong> 3. The navbar should always be at the top of the viewport.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "challengeSeed": [
+        "Uw6sYKY"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {
+        "es": {
+          "title": "Construye una página web para tu portafolio",
+          "description": []
+        },
+        "pt-br": {
+          "title": "Construa uma Página de Portfólio Pessoal",
+          "description": [
+          ]
+        },
+        "ru": {
+          "title": "Создайте сайт-портфолио",
+          "description": [
+          ]
+        }
+      }
+    },
+    {
+      "id": "98e8eac08491258830427239",
+      "title": "Build a Pre Designed Page (clean footer)",
+      "description": [
+        "Build this pre designed page.",
+        "The page must match <strong>pixel for pixel</strong> as close as possible.",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "<a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/clean-web-page-footer/clean-web-page-footer.png\" target=\"_blank\"><div><strong>Click</strong> to view full size image.</div><img src=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/clean-web-page-footer/clean-web-page-footer.png\" style=\"width:500px;\"></a>",
+        "For all the assets need to build this site <a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/clean-web-page-footer\" target=\"_blank\">click here</a>.",
+        "The font used is sans-serif.",
+        "Buttons should be done with css NOT images.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "February 15, 2018",
+      "challengeSeed": [
+        "cDIfODs"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    },
+    {
+      "id": "b5e6c5702253317885744024",
+      "title": "Build a Pre Designed Page (blog)",
+      "description": [
+        "Build this pre designed page.",
+        "The page must match <strong>pixel for pixel</strong> as close as possible.",
+        "<strong>Technology Stack:</strong> 1. Use only HTML and CSS to complete this project, do NOT use any libraries.",
+        "This page must be responsive and have 2 distinct layouts at sizes 1200px and 960px wide.",
+        "<strong>1200px wide</strong> <a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/blog/blog-1200.png\" target=\"_blank\"><div><strong>click</strong> to view full size image.</div><img src=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/blog/blog-1200.png\" style=\"width:500px;\"></a>",
+        "<strong>960px wide</strong> <a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/blog/blog-960.png\" target=\"_blank\"><div><strong>click</strong> to view full size image.</div><img src=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/blog/blog-960.png\" style=\"width:500px;\"></a>",
+        "For all the assets need to build this site <a href=\"http://brickhousecodecamp.org/educationMaterials/projects/workbenchProjects/blog\" target=\"_blank\">click here</a>.",
+        "The font used is sans-serif.",
+        "The categories side bar must be a unordered list of &lt;a&gt; tags and highlight when hovering.",
+        "The highlighted text must be &lt;a&gr; tags and underline when hovering.",
+        "Remember to use the Research-Ask method if you get stuck."
+      ],
+      "releasedOn": "March 7, 2018",
+      "challengeSeed": [
+        "cDIfODs"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3,
+      "translations": {}
+    }
+  ]
+}
